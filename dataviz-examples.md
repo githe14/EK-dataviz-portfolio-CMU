@@ -15,4 +15,5 @@ _You can place some of your data viz examples from the course here.  Make sure t
   vizElement.parentNode.insertBefore(scriptElement, vizElement);                
 </script>
 
+
 This heatmap compares general government debt as a percentage of GDP across OECD countries from 1995 to 2019. Countries are sorted by their average debt levels, with a diverging color scale centered at 100%. Blue indicates debt below 100% of GDP, while orange highlights debt above 100%. The visualization shows persistent high debt ratios in Japan and Greece, significant increases in countries such as Spain and the UK after 2008, and relatively low levels in nations like Estonia and Luxembourg. This design makes the overall data easy to spot long-term patterns and identify periods of sharp change across OECD countries.
