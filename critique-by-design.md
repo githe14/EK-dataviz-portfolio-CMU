@@ -12,9 +12,9 @@ Here is the original data visualization, along with its source.
 
 <img width="653" height="656" alt="Screenshot 2025-11-13 at 11 39 43 PM" src="https://github.com/user-attachments/assets/e7007ed2-0dec-45f3-bdd4-eca1334996bd" />
 
-### Source: https://www.visualcapitalist.com/majority-advertising-dollars-spent-online/
+Source: https://www.visualcapitalist.com/majority-advertising-dollars-spent-online/
 
-Why did I choose this particular data visualization?
+### Why did I choose this particular data visualization?
 
 I selected this visualization from Visual Capitalist because it depicts a massive, historical shift in the advertising industry—the overtaking of traditional media by the internet—yet the visual execution felt cluttered and slightly overwhelming. The dataset itself is powerful, showing a clear "crossing of the paths" between internet and television spending around 2016, but the use of a multi-line chart with numerous variables makes it difficult to instantly grasp the magnitude of the change between the starting point (2012) and the projection (2024).
 
