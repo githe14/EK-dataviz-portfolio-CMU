@@ -15,6 +15,10 @@ Here is the original data visualization, along with its source.
 
 ### Source: https://www.visualcapitalist.com/majority-advertising-dollars-spent-online/
 
+Why did I choose this particular data visualization?
+
+
+
 Include paragraph or two on why you selected this particular data visualization.  For obvious reasons, the data visualization you select should come from a publicly accessible source._
 
 ## Step two: the critique
