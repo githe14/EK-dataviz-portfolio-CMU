@@ -11,6 +11,7 @@ _You can include screenshots, sketches or other artifacts with your narrative to
 Here is the original data visualization, along with its source.
 
 <img width="653" height="656" alt="Screenshot 2025-11-13 at 11 39 43 PM" src="https://github.com/user-attachments/assets/e7007ed2-0dec-45f3-bdd4-eca1334996bd" />
+
 ### Source: https://www.visualcapitalist.com/majority-advertising-dollars-spent-online/
 
 Why did I choose this particular data visualization?
