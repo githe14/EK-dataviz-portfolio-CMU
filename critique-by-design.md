@@ -1,7 +1,6 @@
 | [home page](https://cmustudent.github.io/tswd-portfolio-templates/) | [data viz examples](dataviz-examples) | [critique by design](critique-by-design) | [final project I](final-project-part-one) | [final project II](final-project-part-two) | [final project III](final-project-part-three) |
 
-# Title
-Marketing Trend Analysis using MakeoverMonday
+# The Shift to Digital: Redesigning U.S. Ad Spend Visualization
 
 _For each step below, you should document your progress as you move forward.  In terms of tone, think of the writeup as though you're keeping journal of your step-by-step process.   You should include a any insights you gained from the critique method, and what it led you to think about when considering the redesign.  You should talk about how you moved next to the sketches, and any insights you gleaned from your user feedback.  Document what you changed based on the user feedback in your redesign.  Finally, talk about what your redesigned data visualization shows, why you selected the data visualization you did, and what you attempted to show or do differently._
 
@@ -11,15 +10,12 @@ _You can include screenshots, sketches or other artifacts with your narrative to
 
 Here is the original data visualization, along with its source.
 
-<img width="2400" height="2400" alt="image" src="https://github.com/user-attachments/assets/8e50d594-ccc2-4f72-a76d-75929d5959ad" />
-
+<img width="653" height="656" alt="Screenshot 2025-11-13 at 11 39 43 PM" src="https://github.com/user-attachments/assets/e7007ed2-0dec-45f3-bdd4-eca1334996bd" />
 ### Source: https://www.visualcapitalist.com/majority-advertising-dollars-spent-online/
 
 Why did I choose this particular data visualization?
 
-
-
-Include paragraph or two on why you selected this particular data visualization.  For obvious reasons, the data visualization you select should come from a publicly accessible source._
+I selected this visualization from Visual Capitalist because it depicts a massive, historical shift in the advertising industry—the overtaking of traditional media by the internet—yet the visual execution felt cluttered and slightly overwhelming. The dataset itself is powerful, showing a clear "crossing of the paths" between internet and television spending around 2016, but the use of a multi-line chart with numerous variables makes it difficult to instantly grasp the magnitude of the change between the starting point (2012) and the projection (2024).
 
 ## Step two: the critique
 _Don't forget to complete the Google Form found on the assignment page.  You can summarize your thoughts here._
