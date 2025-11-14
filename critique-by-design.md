@@ -13,6 +13,8 @@ Here is the original data visualization, along with its source.
 
 <img width="2400" height="2400" alt="image" src="https://github.com/user-attachments/assets/8e50d594-ccc2-4f72-a76d-75929d5959ad" />
 
+###Source: https://www.visualcapitalist.com/majority-advertising-dollars-spent-online/
+
 Include paragraph or two on why you selected this particular data visualization.  For obvious reasons, the data visualization you select should come from a publicly accessible source._
 
 ## Step two: the critique
