@@ -84,14 +84,14 @@ While I was open to any feedback, my primary focus was to determine if the dumbb
 | Question | Interview 1 | Interview 2 |
 |----------|-------------|-------------|
 | Can you tell me what you think this is? | It looks like a grouped bar chart (later the person said it's a barbell chart), comparing values across different media categories between two specific years, 2012 and 2020. | A snapshot of the advertising industry share? Or perhaps how much they are making. I think it shows where the money was going from 2012 to 2020 based on the title. |
-|          |             |             |
-|          |             |             |
+| Can you see the main story/context that I'm trying to propose? | The story seems like internet advertising is rising drastically over time, while everything else, especially directories and Newspapers, is the least influential platform. The gap between the dots shows the intensity of that change. Yet, it is unclear what exact value the story is trying to tell. | Again, based on the title and the location of each line, it is telling me that traditional marketing channels are old and decreasing. For the marketer, it suggests that they should allocate the budget, which will be spent on the internet and TV, rather than the old marketing tools. |
+| Is there anything you find interesting, surprising, or confusing? | The chart type works in a way to compare two different time periods with the circles at both ends of the lines. However, I'm definitely confused about the axis. The sketch says '% or $?' at the bottom. Without knowing what the percentage on the x-axis represents, it's difficult to judge the scale, and more importantly, it will not be effective in telling the story. Also, I'm not sure why you only show 2012 and 2020 if the data has 2024 data. It seems to me the projection could tell more interesting insights. | I was surprised by how big a difference the impact of each marketing strategy has. And I like the lines with the two emphases on each year, and how you plan to apply different colors for contrast. The most confusing part is the timeline and the x-axis. The y-axis is clear to understand without any label, but I cannot tell what the x-axis represents. Also, it was difficult to tell what the circles at the end of each line means. I didn't read the subtitle, and it took me a while to figure it out. Still, it is a cool idea in terms of design. Just clarify better by using maybe legends or text next to the circle. |
+| Who do you think is the target audience for this sketch? | Marketing industry professionals or data analysts are trying to apply ad strategies based on the trend. | Business professionals, brand managers, or entertainment executives, etc. People who need to justify why they should invest heavily in the internet and want to find some alternative marketing options. |
+| Is there anything you would change or do differently? | I would definitely add the 2024 projection if you can. It would make the 'dumbbell' wider and the story stronger. Also, add explicit data labels next to the dots so I don't have to scan down to the axis | Make the 'Internet' line distinct. I see you wrote 'Red' on the sketch—definitely do that. And maybe sort them by the biggest current revenue, so Internet is at the top. |
 
 ### Synthesis: 
 
 _What patterns in the feedback emerge?  What did you learn from the feedback?  Based on this feedback, come up with what design changes you think might make the most sense in your final redesign._
-
-Synthesis:
 
 Analyzing the feedback from both interviews, several consistent patterns emerged that will guide my final redesign.
 
