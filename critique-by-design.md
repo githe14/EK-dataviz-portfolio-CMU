@@ -14,8 +14,8 @@ Here is the original data visualization I chose to critique and redesign, along 
 
 <img width="653" height="656" alt="Screenshot 2025-11-13 at 11 39 43 PM" src="https://github.com/user-attachments/assets/e7007ed2-0dec-45f3-bdd4-eca1334996bd" />
 
-Data Visualization Source: [Group M - The Majority of Advertising Dollars are Now Being Spent Online](https://www.visualcapitalist.com/majority-advertising-dollars-spent-online/)
-Dataset Source: [MakeoverMonday](https://data.world/makeovermonday/2020w46)
+- Data Visualization Source: [Group M - The Majority of Advertising Dollars are Now Being Spent Online](https://www.visualcapitalist.com/majority-advertising-dollars-spent-online/)
+- Dataset Source: [MakeoverMonday](https://data.world/makeovermonday/2020w46)
 
 ### Why did I choose this particular data visualization?
 
@@ -31,17 +31,35 @@ Lastly, first to insights made me think that this original visualization has muc
 
 For step two, I submitted a Google Form, reflecting my initial observations of the original data visualization.
 
-Overall, my observation of this line graph is that this is a data-driven, declarative visualization. It is not conceptual but is instead supported by statistics, with a clear focus on informing the audience about data and making a statement about its findings.
+To evaluate the original visualization, the class utilized Stephen Few's Data Visualization Effectiveness Profile and answered several critique questions below.
 
-What worked really well was the chart's simplicity in conveying its main point. The title is straightforward and concise, and the visualization immediately shows the high-level contrast between 2012 and 2024 using the height changes of each line. I also thought it was good that the chart was able to fit all the variables, which is important for comparing all the media types and provide room to reflect for the readers after seeing all information. Other small details, like using a dotted arrow and a "P" to distinguish the projected year and matching the annotation color for "pure-play internet" to the line itself, gave the chart good uniformity and consistency.
+* Usefulness: 9/10
+* Completeness: 7/10
+* Perceptibility: 5/10
+* Truthfulness: 8/10
+* Intuitiveness: 4/10
+* Aesthetics: 9/10
+* Engagement: 6/10
 
-However, as I critique the visualization thoroughly, I found a lot of elements didn't work well and can be done better to do it's job which is enlighten the audience by delivering exactly what the creator wants to inform. The alignment and margins are a bit off, making the chart "tiring the eyes," and the unaligned annotations distract the reader. The background icons are also distracting and hard to see. More importantly, I have serious concerns about the chart's accuracy; I don't think the graph is proportional to the values on the y-axis (the percentages). The X-axis isn't proportional either, but that's less confusing. The lack of proportionality on the Y-axis is a significant flaw. Furthermore, the meaning of the Y-axis itself is unclear unless you read the title, and the random "50%" dotted mark on the line for Online Ads is completely unexplained. Finally, the color choices, while separating media types, do a poor job of emphasizing the main story of growth and decline, which should be apparent at a glance.
+My overall observation is that this is a data-driven, declarative visualization intended to make a clear statement based on statistics rather than conceptual ideas. In terms of what worked for me, the chart's simplicity stood out first. The title is straightforward, and the high-level contrast between 2012 and 2024 is immediately visible through the height changes of the lines. I also noticed that the creator of this visualization tries to give additional details, such as matching the annotation color for "pure-play internet" to its corresponding line.
 
-## Step three: Sketch a solution
+However, the visualization has several elements that distract from the chart's ability to deliver key stories to the audience. The alignment and margins are slightly off, and the unaligned annotations create visual clutter tiring the eyes of the readers. Moreover, I was confused about the chart's accuracy and proportions. The Y-axis lacks labels and appears disproportionate to the values it represents, and the "50%" mark on the Online Ads line is not explained at all. While the color choices successfully separate the media types, they fail to emphasize the core narrative of growth versus decline in each medium at first glance.
+
+The primary audience for this visualization will include, but not be limited to, industry professionals—Marketers, Advertisers, and Media Planners—as well as Business Executives. I believe the visualization is only partially effective for this group. While it successfully delivers the high-level story of internet dominance with a simple, straightforward line graph, it lacks the execution required for professionals. It conveys the core message on a surface level, but the technical misses and distracting design elements overall confuse the context that the creator wants to deliver.
+
+I plan to redesign my approach to focus on improving contextual awareness and visual clarity using an entirely different format. While the outcome may or may not improve the context, exploring other options will provide insightful, hands-on learning. The current line chart becomes distracting with over five variables, so switching the visualization format entirely, such as a dumbbell chart, stacked bar chart, or side-by-side bar chart, rather than making minor tweaks, might improve the clarity of the story: the differences in media over time.
+
+I also want to find a more effective way to represent the timeline and clarify the main story's narrative. I can focus on a "2012 vs. 2024" or use a different format to highlight past (2012), current (2020), and projection (2024). In terms of design, I will adopt a more intuitive color palette, such as utilizing grey to de-emphasize non-key variables and highlighting the main story. Finally, I will determine whether the share of spending, the budget itself, or the earnings is the most effective tool for conveying the narrative.
+
+## Step Three: sketch a solution
 
 ![IMG_3235](https://github.com/user-attachments/assets/bf372b82-c106-44f2-ac4b-87005b1f8492)
 
-## Step four: Test the solution
+The focus of my main story in this redesign was to highlight the change in advertising revenue over time for each medium. The original visualization focused on spending share, which I found to be ineffective for our target audience. The ultimate goal of any marketing effort is a positive outcome—specifically earnings or revenue from each advertising method—rather than just spending. Moreover, since the dataset contained revenue figures, I was confused about how the original visualization derived the spending share.
+
+To address the visual clutter and lack of focused storytelling in the original line chart, I sketched a Dumbbell Chart (Paired Bar Chart) as my potential redesign. I also considered using a stacked or side-by-side bar chart for each medium, but I found those designs to be visually too complicated when reflecting multiple time periods. Unlike the original visualization, which forced the reader to track complex, intersecting lines across twelve years, this design isolates the two most important data points: the past (2012) as the baseline for comparison, and the current (2020) as the outcome. This approach allows me to tell a clear "Before and After" story. Another important time period is 2024, which represents the projected revenue. I plan to brainstorm ideas to see if there is a way to incorporate this projection into the visualization as well.
+
+## Step Four: test the solution
 
 _Before you conduct your interviews, prepare a simple script.  Use this as a guide and as a way to take notes as you go forward. Come up with your own list of questions you want to ask for the selected visualization. Keep the questions broad so you can get the most value out of your feedback. Then, document answers to your questions here._
 
@@ -72,7 +90,7 @@ Synthesis:
 
 _What patterns in the feedback emerge?  What did you learn from the feedback?  Based on this feedback, come up with what design changes you think might make the most sense in your final redesign._
 
-## Step five: build the solution
+## Step Five: build the solution
 
 <div class='tableauPlaceholder' id='viz1763180159882' style='position: relative'><noscript><a href='#'><img alt='Internet Ad Revenue Secures Market Dominance, 2012–2024 TrendsSource: visualcapitalist.com&#47;majority-advertising-dollars-spent-online | data.world&#47;www.makeovermonday&#47;2020w46 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;De&#47;DesignbyCritiqueAdRevenueTrend2012-2024&#47;Sheet1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='DesignbyCritiqueAdRevenueTrend2012-2024&#47;Sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;De&#47;DesignbyCritiqueAdRevenueTrend2012-2024&#47;Sheet1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                
 <script type='text/javascript'>                    
@@ -87,7 +105,13 @@ _What patterns in the feedback emerge?  What did you learn from the feedback?  B
 _Include and describe your final solution here. It's also a good idea to summarize your thoughts on the process overall. When you're done with the assignment, this page should all the items mentioned in the assignment page on Canvas(a link or screenshot of the original data visualization, documentation explaining your process, a summary of your wireframes and user feedback, your final, redesigned data visualization, etc.)._
 
 ## References
-_List any references you used here._
+Few, Stephen. "Data Visualization Effectiveness Profile." Perceptual Edge, January/February/March 2017, http://www.perceptualedge.com/articles/visual_business_intelligence/data_visualization_effectiveness_profile.pdf
+
+Makeover Monday. “Improving How We Visualize and Analyze Data.” Accessed November 20, 2025. https://makeovermonday.co.uk/​
+
+Makeover Monday. “Makeover Monday 2020 Week 46 Dataset.” Accessed November 20, 2025. https://data.world/makeovermonday/2020w46​
+
+Visual Capitalist. “The Majority of Advertising Dollars Are Now Spent Online.” Accessed November 20, 2025. https://www.visualcapitalist.com/majority-advertising-dollars-spent-online/​
 
 ## AI acknowledgements
 _If you used AI to help you complete this assignment (within the parameters of the instruction and course guidelines), detail your use of AI for this assignment here._
