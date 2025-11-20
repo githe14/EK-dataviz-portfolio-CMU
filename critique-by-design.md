@@ -83,13 +83,9 @@ While I was open to any feedback, my primary focus was to determine if the dumbb
 
 | Question | Interview 1 | Interview 2 |
 |----------|-------------|-------------|
-| Can you tell me what you think this is?         | "It looks like a dumbbell chart or paired bar chart. It’s comparing values across different media categories between two specific years."            |   "This is a snapshot of the advertising industry. It shows where the money was going in the past versus where it's going now."          |
-| Can you see the main story/context that I'm trying to propose?         | "The story is pretty clear: Internet revenue exploded, while everything else—especially TV and Newspapers—shrank. The gap between the dots shows the intensity of that change."            | "It’s telling me that traditional marketing channels are crashing. If I’m a marketer, it says I need to put my budget into digital because that's where the dominance is."            |
-| Is there anything you find interesting, surprising, or confusing?
-          | "The chart type works well, but I'm confused about the axis. Your sketch says '% or $?' at the bottom. Without knowing if this is market share or raw revenue, it's hard to judge the scale. Also, why stop at 2020 if we have 2024 data?"            | "I was surprised by how big the drop for 'Direct Mail' was. Confusing part? The timeline. Is the second dot 2020 or 2024? If it’s just 2020, I feel like we are missing the 'post-pandemic' picture which is crucial for marketing right now."            |
-|Who do you think is the target audience for this sketch?
-        | "Likely us, or data analysts trying to fix that messy line chart. Maybe general business readers."`            | "CMOs, brand managers, or entertainment executives. People who need to justify why they are cutting their TV budget."            |
-| Is there anything you would change or do differently? | "I would definitely add the 2024 projection if you can. It would make the 'dumbbell' wider and the story stronger. Also, add explicit data labels next to the dots so I don't have to scan down to the axis." | "Make the 'Internet' line distinct. I see you wrote 'Red' on the sketch—definitely do that. And maybe sort them by the biggest current revenue, so Internet is at the top." |
+| Can you tell me what you think this is? | It looks like a grouped bar chart (later the person said it's a barbell chart), comparing values across different media categories between two specific years, 2012 and 2020. | A snapshot of the advertising industry share? Or perhaps how much they are making. I think it shows where the money was going from 2012 to 2020 based on the title. |
+|          |             |             |
+|          |             |             |
 
 ### Synthesis: 
 
