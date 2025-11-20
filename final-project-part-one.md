@@ -37,14 +37,13 @@ The primary source of the analysis will be based on RIAA (Recording Industry Ass
 |------|-----|-------------|
 | Music Industry Sales (1973-2019)     | (https://www.kaggle.com/datasets/andrewmvd/music-sales?resource=download)    | A comprehensive historical record of US music industry sales, broken down by format (e.g., CD, Vinyl, Streaming).            |
 | Copy of CSV (Keggle)     |  (https://www.kaggle.com/datasets/andrewmvd/music-sales?resource=download)   | A  copy of the dataset uploaded to this repository from the same source above            |
-|      |     |             |
 
-# Method and medium
+### Method and Medium
 
 For the initial brainstorming stage, including Part One, we will primarily use rough sketches on paper (shorthand). Then, as I finalize the main context/story and clean the dataset to my key message, I will explore different visualization options using a few online tools that are interactive and easy to use, such as [Datawrapper] (https://datawraper.de/) or [Flourish] (https://flourish.studio/). For the final visualization, I plan to use Tableau as my main tool. I chose Tableau for its features to effectively handle time-series data on music sales, and its interactive features (tooltips, filtering, etc.) will allow the audience to explore specific formats without cluttering the main narrative. However, other online tools might be used in conjunction with or as an alternative to Tableau. 
 
-### References
-McIver, A. (2020). Music Industry Sales (1973 - 2019) [Data set]. Kaggle. https://www.kaggle.com/datasets/andrewmvd/music-sales
+### References`
+McIver, A. (2020). Music Industry Sales (1973 - 2019). Kaggle. https://www.kaggle.com/datasets/andrewmvd/music-sales
 Berinato, S. (2016). Good Charts: The HBR Guide to Making Smarter, More Persuasive Data Visualizations. Harvard Business Review Press.
 
 ### AI acknowledgements
