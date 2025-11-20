@@ -25,9 +25,19 @@ Based on the initial story, context, and the target, the project structure of ID
 4. The Resolution: The story concludes with the rapid rise of paid streaming, such as Spotify and Apple Music. The curve turns upward, but the takeaway is nuanced. The market regained its growth, and in fact, it gained momentum more than at any other time. Yet, it's no longer selling products, but almost feels like selling utility, technology, and service. The story can conclude by asking whether this new model is sustainable or if we are merely renting our culture.
 
 ### Initial sketches
-> Post images of your anticipated data visualizations (sketches are fine). They should mimic aspects of your outline, and include elements of your story.  
 
-Text here...
+![IMG_3240](https://github.com/user-attachments/assets/aff8799d-e1de-49fe-932b-9acaf1235f3f)
+
+Sketch 1: Music Industry Revenue by Format (1973–2019)
+
+This visualization concept captures the structural shifts in the music business over the five decades. The stacked area format enables us to visualize the dominance of physical media during the CD boom, the rise of the digital download model, and the eventual shift to the mega streaming era as the industry’s primary revenue source. Key notes that can be included in the later version can include the CD peak and the point where streaming surpasses the 50% mark, which I see as the story's pivotal moments. This sketch can be used as a narrative to illustrate how consumers' trends/behavior forced a complete shift of the business model in the music industry.
+
+
+<img width="1039" height="620" alt="Screenshot 2025-11-20 at 12 24 44 AM" src="https://github.com/user-attachments/assets/91f92c51-eba7-4a4f-bcdf-fb571ad2394c" />
+
+Sketch 2: U.S. Recorded Music Revenue (Inflation-Adjusted)
+
+This chart provides a macro view of the overall music revenue in the data set, presented in a more intuitive and traditional design. The industry’s financial trajectory in real dollars. It highlights the dramatic increase from the late-1990s peak, the collapse during the digital disruption years, and the subsequent recovery driven by streaming. Moreover, by using inflation-adjusted values, the sketch effectively highlights the true scale of the value gap and provides context for it. Although this visualization is rough and needs to be more detailed, it can serve as the backbone for the project's narrative.
 
 ### The data
 
