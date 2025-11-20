@@ -1,24 +1,35 @@
 | [home page](https://cmustudent.github.io/tswd-portfolio-templates/) | [data viz examples](dataviz-examples) | [critique by design](critique-by-design) | [final project I](final-project-part-one) | [final project II](final-project-part-two) | [final project III](final-project-part-three) |
 
-# The Shift to Digital: Redesigning U.S. Ad Spend Visualization
-
 _For each step below, you should document your progress as you move forward.  In terms of tone, think of the writeup as though you're keeping journal of your step-by-step process.   You should include a any insights you gained from the critique method, and what it led you to think about when considering the redesign.  You should talk about how you moved next to the sketches, and any insights you gleaned from your user feedback.  Document what you changed based on the user feedback in your redesign.  Finally, talk about what your redesigned data visualization shows, why you selected the data visualization you did, and what you attempted to show or do differently._
 
 _You can include screenshots, sketches or other artifacts with your narrative to help tell the story of how you moved through the process.  Again, make sure to avoid including any personally identifying information about your interviewees (don't list full names, etc.).  While this template serves as a guide, make sure to reference the assignment writeup on Canvas for the official guidance.  This template does not include all guidance mentioned on the assignment page._
 
-## Step one: the visualization
+# The Shift to Digital: Redesigning U.S. Ad Spend Visualization
 
-Here is the original data visualization, along with its source.
+Here, I will conduct a comprehensive critique and redesign of an existing data visualization to enhance the storytelling of the data. I will be using one of the publicly accessible sources from [Makeover Monday](https://makeovermonday.co.uk/).
+
+## Step One: the visualization
+
+Here is the original data visualization I chose to critique and redesign, along with its source.
 
 <img width="653" height="656" alt="Screenshot 2025-11-13 at 11 39 43 PM" src="https://github.com/user-attachments/assets/e7007ed2-0dec-45f3-bdd4-eca1334996bd" />
 
-Source: https://www.visualcapitalist.com/majority-advertising-dollars-spent-online/
+Data Visualization Source: [Group M - The Majority of Advertising Dollars are Now Being Spent Online](https://www.visualcapitalist.com/majority-advertising-dollars-spent-online/)
+Dataset Source: [MakeoverMonday](https://data.world/makeovermonday/2020w46)
 
 ### Why did I choose this particular data visualization?
 
-I selected this visualization from Visual Capitalist because it depicts a massive, historical shift in the advertising industry—the overtaking of traditional media by the internet—yet the visual execution felt cluttered and slightly overwhelming. The dataset itself is powerful, showing a clear "crossing of the paths" between internet and television spending around 2016, but the use of a multi-line chart with numerous variables makes it difficult to instantly grasp the magnitude of the change between the starting point (2012) and the projection (2024).
+I selected this visualization from Visual Capitalist for three key reasons. 
 
-## Step two: the critique
+First, as a student invested in the entertainment industry, where marketing is key for any professional, this data caught my attention when I was searching for insights relevant to my career interests. As expected, the advertising market as a whole has increased significantly over the last decade, yet it was fascinated to see such a massive gap in share between digital marketing and traditional physical marketing. Moreover, the consistent decrease in the share of TV advertising over time was a trend I found particularly unexpected and worth exploring further.
+
+Secondly, after reviewing the original dataset (Share of US Ad Spend.xlsx), I noticed that the file contains much more context than the chart currently displays, offering the potential to deliver a more detailed and interesting story. For instance, while the original visualization only focused on the proportional share of advertisement spending, the dataset includes revenues earned and categorizes the media into even more specific segments. 
+
+Lastly, first to insights made me think that this original visualization has much redesign potential. I found that there are many possible ways to remodel the original visualization to better highlight the key story I want to propose, specifically the dramatic shift in dominance, based on the tailored data.
+
+## Step Two: the critique
+
+For step two, I submitted a Google Form, reflecting my initial observations of the original data visualization.
 
 Overall, my observation of this line graph is that this is a data-driven, declarative visualization. It is not conceptual but is instead supported by statistics, with a clear focus on informing the audience about data and making a statement about its findings.
 
@@ -28,7 +39,7 @@ However, as I critique the visualization thoroughly, I found a lot of elements d
 
 ## Step three: Sketch a solution
 
-![IMG_3235](https://github.com/user-attachments/assets/5b619a25-2d8a-482b-863d-9e7221dadf12)
+![IMG_3235](https://github.com/user-attachments/assets/bf372b82-c106-44f2-ac4b-87005b1f8492)
 
 ## Step four: Test the solution
 
