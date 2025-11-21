@@ -141,20 +141,19 @@ The color of the lines on the graph's left side changed to red to make the dots 
 
 I merged two graphs, showing the same trend line with three dots representing each year. 
 
-<img width="1512" height="982" alt="Screenshot 2025-11-14 at 10 44 37 PM" src="https://github.com/user-attachments/assets/71669c70-a6c1-48db-9b60-971c155a92db" />
+<img width="1512" height="943" alt="Screenshot 2025-11-14 at 10 44 37 PM" src="https://github.com/user-attachments/assets/83fc95ec-fdc5-43c2-8862-6cd1cfff39d1" />
 
-<img width="1512" height="982" alt="Screenshot 2025-11-14 at 10 44 32 PM" src="https://github.com/user-attachments/assets/26aec573-8164-4907-b084-4435dbf95307" />
+<img width="1512" height="942" alt="Screenshot 2025-11-14 at 10 44 32 PM" src="https://github.com/user-attachments/assets/c3e2daf9-2f85-4497-a6b2-920a921382d9" />
 
 From here, I explored different style elements to balance the visibility between the connecting lines and the dots. Some of the options include changing the shape and resizing the shapes, as shown above. 
 
-<img width="1512" height="982" alt="Screenshot 2025-11-14 at 10 49 02 PM" src="https://github.com/user-attachments/assets/c4812b65-3a76-4ad3-b053-6a117a4e3edf" />
+<img width="1512" height="941" alt="Screenshot 2025-11-14 at 10 49 02 PM" src="https://github.com/user-attachments/assets/f16a7f45-deaa-4bc1-98c6-75d6a349c52a" />
 
 Another concern was how to tell the readers which dot represents which year. As shown above, notes on each dot were overwhelming in both contextual and design-wise. Based on the feedback, I decided to change the bar to grey, apply different colors over three years, and include legends to explain which year each color represents.
 
-<img width="1512" height="982" alt="Screenshot 2025-11-14 at 10 49 02 PM" src="https://github.com/user-attachments/assets/9b0957a3-4eae-43ca-8b7a-80f2dc3c95fb" />
+<img width="1512" height="942" alt="Screenshot 2025-11-14 at 10 54 50 PM" src="https://github.com/user-attachments/assets/4edb1933-f6b2-400f-a6c1-085636351811" />
 
-After many iterations, I concluded that changing the shape isn't too effective. Keeping the design of the trendline as a straight line with rounded edges, and using a circular dot for the year, was the best option. 
-Therefore, I increased the thickness of each line, representing a bar, and placed circular dots inside the bars. Because some of the values ("Year") were too close to each other on the chart, if I increased the size of the dots alone, they would overlap and not be distinguishable from one another. This allowed me to create thick grey bars to represent the path and overlay distinct circles for the specific years.
+After many iterations, I concluded that changing the shape isn't too effective. Keeping the design of the trendline as a straight line with rounded edges, and using a circular dot for the year, was the best option. Therefore, I increased the thickness of each line, representing a bar, and placed circular dots inside the bars. Because some of the values ("Year") were too close to each other on the chart, if I increased the size of the dots alone, they would overlap and not be distinguishable from one another. This allowed me to create thick grey bars to represent the path and overlay distinct circles for the specific years.
 
 Lastly, I made the final minor modifications, such as removing the x-axis label at the top and adding a clear and engaging title. Additionally, I sorted the order to align the media types on the Y-axis by 2024 Revenue (from High to Low). So, the visualization places "Internet" at the very top, intuitively expressing its dominance.
 
