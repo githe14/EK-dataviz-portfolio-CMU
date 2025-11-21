@@ -23,7 +23,7 @@ Secondly, after reviewing the original dataset (Share of US Ad Spend.xlsx), I no
 
 Those insights altogether made me think that this original visualization has much redesign potential. I found that there are many possible ways to remodel the original visualization to better highlight the key story I want to propose, specifically the dramatic shift in dominance, based on the tailored data.
 
-## Step Two: the critique
+## Step Two: The critique
 
 For step two, I submitted a Google Form, reflecting my initial observations of the original data visualization.
 
@@ -51,15 +51,15 @@ I plan to redesign my approach to focus on improving contextual awareness and vi
 
 I also want to find a more effective way to represent the timeline and clarify the main story's narrative. I can focus on a "2012 vs. 2024" or use a different format to highlight past (2012), current (2020), and projection (2024). In terms of design, I will adopt a more intuitive color palette, such as utilizing grey to de-emphasize non-key variables and highlighting the main story. Finally, I will determine whether the share of spending, the budget itself, or the earnings is the most effective tool for conveying the narrative.
 
-## Step Three: sketch a solution
+## Step Three: Sketch a solution
 
 ![IMG_3235](https://github.com/user-attachments/assets/bf372b82-c106-44f2-ac4b-87005b1f8492)
 
-The focus of my main story in this redesign was to highlight the change in advertising revenue over time for each medium. The original visualization focused on spending share, which I found to be ineffective for our target audience. The ultimate goal of any marketing effort is a positive outcome—earnings or revenue from each advertising method—rather than just spending. Moreover, since the dataset contained revenue figures, I was confused about how the original visualization derived the spending share.
+The focus of my main story in this redesign was to highlight the change in advertising revenue over time for each medium. The original visualization focused on the spending share, which I found to be ineffective for our target audience. The ultimate goal of any marketing effort is a positive outcome—earnings or revenue from each advertising method—rather than just spending. Moreover, since the dataset contained revenue figures, I was confused about how the original visualization derived the spending share.
 
 To address the visual clutter and lack of focused storytelling in the original line chart, I sketched a Dumbbell Chart (Paired Bar Chart) as my potential redesign. I also considered using a stacked or side-by-side bar chart for each medium, but I found those designs to be visually too complicated when reflecting multiple time periods. Unlike the original visualization, which forced the reader to track complex, intersecting lines across twelve years, this design isolates the two most important data points: the past (2012) as the baseline for comparison, and the current (2020) as the outcome. This approach allows me to tell a clear "Before and After" story. Another important time period is 2024, which represents the projected revenue. I plan to brainstorm ideas to see if there is a way to incorporate this projection into the visualization as well.
 
-## Step Four: test the solution
+## Step Four: Test the solution
 
 I conducted interviews with two students at Carnegie Mellon University (CMU) about my sketch. 
 
@@ -67,7 +67,7 @@ Interview 1 was done with a CMU student, mid-20s, taking the "Telling Stories wi
 
 While I was open to any feedback, my primary focus was to determine if the dumbbell chart format effectively removed the visual clutter I noticed in the original visualization and if the "Before and After" trend was clear to different readers. The only information I provided before showing my sketch is that the data is about marketing revenue and its trend over time. Towards the end of the interview, I showed them the original data visualization and answered any follow-up questions from the interviewees.
 
-### Questions asked: 
+### Questions Asked: 
 
 - Tell me what you think this sketch is?
 
@@ -79,7 +79,7 @@ While I was open to any feedback, my primary focus was to determine if the dumbb
 
 - Is there anything you would change or do differently?
 
-### Inteview Results
+### Interview Results
 
 | Question | Interview 1 | Interview 2 |
 |----------|-------------|-------------|
@@ -89,7 +89,7 @@ While I was open to any feedback, my primary focus was to determine if the dumbb
 | Who do you think is the target audience for this sketch? | Marketing industry professionals or data analysts are trying to apply ad strategies based on the trend. | Business professionals, brand managers, or entertainment executives, etc. People who need to justify why they should invest heavily in the internet and want to find some alternative marketing options. |
 | Is there anything you would change or do differently? | Definitely add the 2024 projection if you can. It might make the line wider or have two different charts side-by-side. Still, the 2024 projection will catch more attention than just showing the actual outcomes only. Also, figure out how to make the x-axis clearer because that's where the most ambiguity comes from. Consider adding legends, labels, or a note next to the dots so I don't have to scan down to the axis. | To make the story stronger, I would make the "Internet" line stand out. You already said the "Internet" line will be in red, so that might work. I will also clarify whether you want to use the "%" or "$" for the x-axis and clarify them on the visualization. Additionally, the current chart doesn't indicate which dots represent 2012 and 2020. This is important because it will tell whether there was a decrease or an increase! You can consider adding an arrow or something similar. And maybe sort them by the biggest increase to smallest, or biggest decrease to smallest, to show some uniformity. |
 
-### Synthesis of Interviews
+### Synthesizing Feedbacks
 
 From the feedback from both interviewees, I was able to identify several key insights that were commonly shared. While switching the format to the dumbbell chart format is mostly successful in terms of representing the overall narrative of each advertising platform and its performance review over time, there are many specific details in the sketch that caused confusion for them. First of all, both interviewees struggled to understand the units on the x-axis immediately. They both questioned whether the horizontal scale represents the market share or advertising revenue in percentages. Secondly, they found the timeline of the dots is ambiguous without using features like labeling, annotations, or legends. Lastly, they found that most of the different advertising platforms (including TV, Magazines, and newspapers) provided insightful information, rather than highlighting the Internet (the most significant increase) and Directories (the poorest performance). Overall, the interview taught me that while the visualization format is intuitive and effective for displaying all variables in one chart, it lacks clarity and requires better design improvements and clearer text elements.
 
@@ -99,7 +99,13 @@ Based on this feedback, here are some of the redesign ideas that I am considerin
 2. Define the Axis: I will use Revenue ($) rather than percentage share, as this aligns with the needs of the target market to find what the outcome (earnings) is and provide them insights on which medium to use..
 3. Visual Improvements: I will consider the minor suggestions in visual elements, such as sorting, removing gray colors, applying legends to clarify the dots, etc.
 
-## Step Five: build the solution
+## Step Five: Build the solution
+
+<img src="Screenshot 2025-11-14 at 10.08.02 PM.png" alt="Original Data Source Review" width="800"/>
+
+<img src="Screenshot 2025-11-14 at 9.46.22 PM.png" alt="Data Cleaning in Tableau" width="600"/>
+
+### Final Visualization
 
 <div class='tableauPlaceholder' id='viz1763180159882' style='position: relative'><noscript><a href='#'><img alt='Internet Ad Revenue Secures Market Dominance, 2012–2024 TrendsSource: visualcapitalist.com&#47;majority-advertising-dollars-spent-online | data.world&#47;www.makeovermonday&#47;2020w46 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;De&#47;DesignbyCritiqueAdRevenueTrend2012-2024&#47;Sheet1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='DesignbyCritiqueAdRevenueTrend2012-2024&#47;Sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;De&#47;DesignbyCritiqueAdRevenueTrend2012-2024&#47;Sheet1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                
 <script type='text/javascript'>                    
@@ -111,11 +117,6 @@ Based on this feedback, here are some of the redesign ideas that I am considerin
   vizElement.parentNode.insertBefore(scriptElement, vizElement);                
 </script>
 
-_Include and describe your final solution here. It's also a good idea to summarize your thoughts on the process overall. When you're done with the assignment, this page should all the items mentioned in the assignment page on Canvas(a link or screenshot of the original data visualization, documentation explaining your process, a summary of your wireframes and user feedback, your final, redesigned data visualization, etc.)._
-
-_For each step below, you should document your progress as you move forward.  In terms of tone, think of the writeup as though you're keeping journal of your step-by-step process.   You should include a any insights you gained from the critique method, and what it led you to think about when considering the redesign.  You should talk about how you moved next to the sketches, and any insights you gleaned from your user feedback.  Document what you changed based on the user feedback in your redesign.  Finally, talk about what your redesigned data visualization shows, why you selected the data visualization you did, and what you attempted to show or do differently._
-
-_You can include screenshots, sketches or other artifacts with your narrative to help tell the story of how you moved through the process.  Again, make sure to avoid including any personally identifying information about your interviewees (don't list full names, etc.).  While this template serves as a guide, make sure to reference the assignment writeup on Canvas for the official guidance.  This template does not include all guidance mentioned on the assignment page._
 
 
 ## References
