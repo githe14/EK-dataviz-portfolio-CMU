@@ -125,11 +125,11 @@ The original visualization displayed over eight categories, which felt overwhelm
 
 I also changed "Pure-Play Internet" to simply "Internet" for conciseness. This narrowed the focus to six major media types, letting the viewer not get distracted by minor variables.
 
-<img width="1512" height="982" alt="Screenshot 2025-11-14 at 10 29 56 PM" src="https://github.com/user-attachments/assets/e4f6eff3-d16e-4d36-9291-7d80bef5fe19" />
+<img width="1512" height="943" alt="Screenshot 2025-11-14 at 10 29 56 PM" src="https://github.com/user-attachments/assets/4747c43b-466f-4539-a1bf-8e9377985da7" />
 
 Based on the feedback from the interview, I moved forward with the Dumbbell Chart design. I placed "Type" of media on the Y-axis and "Sum(Revenue)" to show the total for each year on the X-axis. This created the horizontal line graph or thin bar graph. Then, I filtered "Year" to make the visualization only contain the data from three key years: 2012 (the past), 2020 (the recent shift), and 2024 (the projection).
 
-<img width="1512" height="982" alt="Screenshot 2025-11-14 at 10 38 39 PM" src="https://github.com/user-attachments/assets/e885ece1-548d-4265-b587-a069a7665c99" />
+<img width="1512" height="941" alt="Screenshot 2025-11-14 at 10 38 39 PM" src="https://github.com/user-attachments/assets/ae56aeea-bd8d-4d23-8e07-8586f097f614" />
 
 As shown in the previous step, the challenge I faced during the redesign was determining how to visually represent the three distinct years (2012, 2020, 2024) on the line. While the line is created based on the revenue data from those three years only, it was not showing on the chart, making it impossible for readers to know which year generated how much revenue. 
 
