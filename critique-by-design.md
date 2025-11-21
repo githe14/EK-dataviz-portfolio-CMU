@@ -137,6 +137,16 @@ The color of the lines on the graph's left side changed to red to make the dots 
 
 <img width="1512" height="982" alt="Screenshot 2025-11-14 at 10 38 39 PM" src="https://github.com/user-attachments/assets/e885ece1-548d-4265-b587-a069a7665c99" />
 
+I merged two graphs, showing the same trend line with three dots representing each year. 
+
+<img width="967" height="481" alt="image" src="https://github.com/user-attachments/assets/41af3212-dfdc-47ba-b38d-73117a8d70e9" />
+
+From here, I explored different styles to balance the visibility between the connecting lines and the dots. Some of the options include changing the shape and changing the size of the shapes as shown below. 
+
+This allowed me to create thick grey bars to represent the "path" and overlay distinct circles for the specific years.
+
+I found that placing the circles inside the thick bar was visually more organized than having them protrude, especially since some data points (like Radio) were close together.
+
 ### Final Visualization
 
 <div class='tableauPlaceholder' id='viz1763180159882' style='position: relative'><noscript><a href='#'><img alt='Internet Ad Revenue Secures Market Dominance, 2012–2024 TrendsSource: visualcapitalist.com&#47;majority-advertising-dollars-spent-online | data.world&#47;www.makeovermonday&#47;2020w46 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;De&#47;DesignbyCritiqueAdRevenueTrend2012-2024&#47;Sheet1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='DesignbyCritiqueAdRevenueTrend2012-2024&#47;Sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;De&#47;DesignbyCritiqueAdRevenueTrend2012-2024&#47;Sheet1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                
