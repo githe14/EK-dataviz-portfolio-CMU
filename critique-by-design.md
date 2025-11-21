@@ -107,7 +107,7 @@ I used Tableau for building the final visualization. My main goal was to clarify
 
 Source: GroupM. (2020). The US Mid-Year 2020 Advertising Forecast: This Year, Next Year – Mid-Year Report. GroupM Worldwide, Inc. Published June 16, 2020. [PDF]. Page 15. Available from: https://data.world/makeovermonday/2020w46/workspace/file?filename=groupmusadvertisingforecast-1.pdf
 
-Before building the visualization in Tableau, I first took a look at the original dataset, Share of US Ad Spend.xlsx, to understand the variables. I immediately noticed an inconsistency between the dataset and the original visualization, which focuses on Ad Spend Share (%). The raw data values appeared to be monetary amounts. I learned that these values actually represented Media Ad Revenue, not spending, according to the original source mid-year report [^1]: GroupM. (2020). The US Mid-Year 2020 Advertising Forecast: This Year, Next Year – Mid-Year Report. GroupM Worldwide, Inc. Published June 16, 2020. [PDF]. Page 15. Available from: https://data.world/makeovermonday/2020w46/workspace/file?filename=groupmusadvertisingforecast-1.pdf
+Before building the visualization in Tableau, I first took a look at the original dataset, Share of US Ad Spend.xlsx, to understand the variables. I immediately noticed an inconsistency between the dataset and the original visualization, which focuses on Ad Spend Share (%). The raw data values appeared to be monetary amounts. I learned that these values actually represented Media Ad Revenue, not spending, according to the original source mid-year report [^1].
 
 I was planning to redesign the chart, focusing on the revenue (the outcome), so this wasn't an issue, but it was a good note to make.
 
@@ -153,7 +153,7 @@ Makeover Monday. “Makeover Monday 2020 Week 46 Dataset.” Accessed November 2
 
 Visual Capitalist. “The Majority of Advertising Dollars Are Now Spent Online.” Accessed November 20, 2025. https://www.visualcapitalist.com/majority-advertising-dollars-spent-online/​
 
-GroupM. (2020). The US Mid-Year 2020 Advertising Forecast: This Year, Next Year – Mid-Year Report. GroupM Worldwide, Inc. Published June 16, 2020. [PDF]. Page 15. Available from: https://data.world/makeovermonday/2020w46/workspace/file?filename=groupmusadvertisingforecast-1.pdf
+[^1]: GroupM. (2020). The US Mid-Year 2020 Advertising Forecast: This Year, Next Year – Mid-Year Report. GroupM Worldwide, Inc. Published June 16, 2020. [PDF]. Page 15. Available from: https://data.world/makeovermonday/2020w46/workspace/file?filename=groupmusadvertisingforecast-1.pdf
 
 ## AI acknowledgements
 _If you used AI to help you complete this assignment (within the parameters of the instruction and course guidelines), detail your use of AI for this assignment here._
