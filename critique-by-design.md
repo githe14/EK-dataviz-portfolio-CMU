@@ -93,17 +93,9 @@ While I was open to any feedback, my primary focus was to determine if the dumbb
 
 _What patterns in the feedback emerge?  What did you learn from the feedback?  Based on this feedback, come up with what design changes you think might make the most sense in your final redesign._
 
-Analyzing the feedback from both interviews, several consistent patterns emerged that will guide my final redesign.
+From the feedback from both interviewees, I was able to identify several key insights that were commonly shared. While switching the format to the dumbbell chart format is mostly successful in terms of communicated the broad narrative of the Internet's rise and traditional media's decline, the specific mechanics of the chart caused confusion. Both interviewees struggled to immediately identify the units on the x-axis—explicitly questioning if it represented market share percentages or revenue dollars—and found the timeline of the dots ambiguous without immediate labeling. This taught me that while the shape of the data is intuitively effective for showing gaps, the visualization fails to be "self-explanatory" without clearer annotations, a defined scope, and a legend.
 
-First, the format change was a success. Both the data student and the marketing student immediately understood the "growth vs. decline" narrative without having to untangle the messy lines of the original visualization. The dumbbell chart successfully reduced the visual load and made the comparison intuitive.
-
-However, I learned that clarity on metrics and timeline is non-negotiable. Both interviewees pointed out the ambiguity of the X-axis (revenue vs. share) and the end date (2020 vs. 2024). This confirms my earlier hesitation; simply showing "2012 vs. 2020" misses the full scope of the story. To make this visualization truly effective for industry professionals, I need to incorporate the 2024 projection data.
-
-Based on this feedback, I have decided on the following design changes:
-
-1. Incorporate 2024: I will add a third point to the chart (2024 projection) to show the future trajectory. This might turn the "dumbbell" into a "beaded" look, but it provides the necessary context regarding the post-pandemic market.
-2. Define the Axis: I will strictly use Revenue ($) rather than percentage share, as this aligns with the "positive outcome" goal of marketing I mentioned in my draft.
-3. Visual Hierarchy: I will implement the suggestion to sort the categories by 2024 revenue (putting Internet at the top) and use explicit data labels so the audience doesn't have to guess the values.
+Based on these insights, I have decided to implement several key design changes. First, I will incorporate the 2024 projection data, as Interview 1 noted that excluding it limits the potential insights. Second, I will explicitly label the x-axis as "Revenue ($)" to resolve the metric confusion. Finally, I will adopt Interview 2’s suggestion to create visual uniformity by sorting the categories—likely by the magnitude of growth or current revenue—and using distinct colors to make the "Internet" line stand out. These changes will ensure the viewer can instantly distinguish the timeline and the narrative of dominance without having to scan back and forth to interpret the data.
 
 ## Step Five: build the solution
 
