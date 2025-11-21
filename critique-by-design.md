@@ -183,5 +183,4 @@ Visual Capitalist. “The Majority of Advertising Dollars Are Now Spent Online.�
 [^1]: GroupM. (2020). The US Mid-Year 2020 Advertising Forecast: This Year, Next Year – Mid-Year Report. GroupM Worldwide, Inc. Published June 16, 2020. [PDF]. Page 15. Available from: https://data.world/makeovermonday/2020w46/workspace/file?filename=groupmusadvertisingforecast-1.pdf
 
 ## AI acknowledgements
-_If you used AI to help you complete this assignment (within the parameters of the instruction and course guidelines), detail your use of AI for this assignment here._
-
+No AI uses for this project.
