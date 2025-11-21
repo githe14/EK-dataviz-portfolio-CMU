@@ -89,11 +89,11 @@ While I was open to any feedback, my primary focus was to determine if the dumbb
 | Who do you think is the target audience for this sketch? | Marketing industry professionals or data analysts are trying to apply ad strategies based on the trend. | Business professionals, brand managers, or entertainment executives, etc. People who need to justify why they should invest heavily in the internet and want to find some alternative marketing options. |
 | Is there anything you would change or do differently? | Definitely add the 2024 projection if you can. It might make the line wider or have two different charts side-by-side. Still, the 2024 projection will catch more attention than just showing the actual outcomes only. Also, figure out how to make the x-axis clearer because that's where the most ambiguity comes from. Consider adding legends, labels, or a note next to the dots so I don't have to scan down to the axis. | To make the story stronger, I would make the "Internet" line stand out. You already said the "Internet" line will be in red, so that might work. I will also clarify whether you want to use the "%" or "$" for the x-axis and clarify them on the visualization. Additionally, the current chart doesn't indicate which dots represent 2012 and 2020. This is important because it will tell whether there was a decrease or an increase! You can consider adding an arrow or something similar. And maybe sort them by the biggest increase to smallest, or biggest decrease to smallest, to show some uniformity. |
 
-### Synthesizing Feedbacks
+### Synthesizing Feedback
 
 From the feedback from both interviewees, I was able to identify several key insights that were commonly shared. While switching the format to the dumbbell chart format is mostly successful in terms of representing the overall narrative of each advertising platform and its performance review over time, there are many specific details in the sketch that caused confusion for them. First of all, both interviewees struggled to understand the units on the x-axis immediately. They both questioned whether the horizontal scale represents the market share or advertising revenue in percentages. Secondly, they found the timeline of the dots is ambiguous without using features like labeling, annotations, or legends. Lastly, they found that most of the different advertising platforms (including TV, Magazines, and newspapers) provided insightful information, rather than highlighting the Internet (the most significant increase) and Directories (the poorest performance). Overall, the interview taught me that while the visualization format is intuitive and effective for displaying all variables in one chart, it lacks clarity and requires better design improvements and clearer text elements.
 
-Based on this feedback, here are some of the redesign ideas that I am considering to implement:
+Based on the feedback, here are some of the redesign ideas that I am considering to implement:
 
 1. Add 2024 Projection: I will add a third point to the chart (2024 projection) to show the future trajectory on the final visualization.
 2. Define the Axis: I will use Revenue ($) rather than percentage share, as this aligns with the needs of the target market to find what the outcome (earnings) is and provide them insights on which medium to use..
@@ -101,9 +101,34 @@ Based on this feedback, here are some of the redesign ideas that I am considerin
 
 ## Step Five: Build the solution
 
-<img src="Screenshot 2025-11-14 at 10.08.02 PM.png" alt="Original Data Source Review" width="800"/>
+I used Tableau for building the final visualization. My main goal was to clarify the narrative: the aggressive shift of advertising strategy toward the Internet compared to traditional media. Below are the journey I took, the final visualization, and comments on each step.
 
-<img src="Screenshot 2025-11-14 at 9.46.22 PM.png" alt="Data Cleaning in Tableau" width="600"/>
+<img width="547" height="385" alt="Screenshot 2025-11-14 at 10 08 02 PM" src="https://github.com/user-attachments/assets/a8fc85ec-f8de-4032-87a9-dbe210941ccf" />
+
+Source: GroupM. (2020). The US Mid-Year 2020 Advertising Forecast: This Year, Next Year – Mid-Year Report. GroupM Worldwide, Inc. Published June 16, 2020. [PDF]. Page 15. Available from: https://data.world/makeovermonday/2020w46/workspace/file?filename=groupmusadvertisingforecast-1.pdf
+
+Before building the visualization in Tableau, I first took a look at the original dataset, Share of US Ad Spend.xlsx, to understand the variables. I immediately noticed an inconsistency between the dataset and the original visualization, which focuses on Ad Spend Share (%). The raw data values appeared to be monetary amounts. I learned that these values actually represented Media Ad Revenue, not spending, according to the original source mid-year report [^1]: GroupM. (2020). The US Mid-Year 2020 Advertising Forecast: This Year, Next Year – Mid-Year Report. GroupM Worldwide, Inc. Published June 16, 2020. [PDF]. Page 15. Available from: https://data.world/makeovermonday/2020w46/workspace/file?filename=groupmusadvertisingforecast-1.pdf
+
+I was planning to redesign the chart, focusing on the revenue (the outcome), so this wasn't an issue, but it was a good note to make.
+
+<img width="557" height="339" alt="Screenshot 2025-11-14 at 10 17 47 PM" src="https://github.com/user-attachments/assets/54755b8e-5733-41b7-9997-21e39e870373" />
+<img width="557" height="339" alt="Screenshot 2025-11-14 at 10 17 19 PM" src="https://github.com/user-attachments/assets/2d9c5b12-70d7-415a-904c-88381392b810" />
+
+After reading the raw dataset, I imported the data into Tableau and changed the variable names ("Year" and "Revenue") for clarity.
+
+<img width="356" height="266" alt="Screenshot 2025-11-14 at 10 26 27 PM" src="https://github.com/user-attachments/assets/7096b061-9ac3-4b8e-931d-06df5f2465e6" />
+
+The raw data was highly segmented, containing variables for both "Type" (broad categories like TV) and "Source" (sub-categories like National vs. Local TV). The original visualization displayed over eight categories, which felt overwhelming and contributed to the visual noise I identified in my critique.
+
+To improve perceptibility, I cleaned the data by:
+
+Excluding "Source" variables: I removed granular sub-categories to focus on the macro trends.
+
+Grouping minor categories: I combined "Direct Mail," "Directories," and "Out-of-Home" into a single "Other" category.
+
+Renaming: I changed "Pure-Play Internet" to simply "Internet" for conciseness.
+
+This narrowed the focus to six major media types, ensuring the viewer wouldn't be distracted by minor variables.
 
 ### Final Visualization
 
@@ -127,6 +152,8 @@ Makeover Monday. “Improving How We Visualize and Analyze Data.” Accessed Nov
 Makeover Monday. “Makeover Monday 2020 Week 46 Dataset.” Accessed November 20, 2025. https://data.world/makeovermonday/2020w46​
 
 Visual Capitalist. “The Majority of Advertising Dollars Are Now Spent Online.” Accessed November 20, 2025. https://www.visualcapitalist.com/majority-advertising-dollars-spent-online/​
+
+GroupM. (2020). The US Mid-Year 2020 Advertising Forecast: This Year, Next Year – Mid-Year Report. GroupM Worldwide, Inc. Published June 16, 2020. [PDF]. Page 15. Available from: https://data.world/makeovermonday/2020w46/workspace/file?filename=groupmusadvertisingforecast-1.pdf
 
 ## AI acknowledgements
 _If you used AI to help you complete this assignment (within the parameters of the instruction and course guidelines), detail your use of AI for this assignment here._
