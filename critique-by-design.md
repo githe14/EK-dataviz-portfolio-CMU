@@ -43,7 +43,7 @@ To evaluate the original visualization, the class utilized Stephen Few's Data Vi
 
 My overall observation is that this is a data-driven, declarative visualization intended to make a clear statement based on statistics rather than conceptual ideas. In terms of what worked for me, the chart's simplicity stood out first. The title is straightforward, and the high-level contrast between 2012 and 2024 is immediately visible through the height changes of the lines. I also noticed that the creator of this visualization tries to give additional details, such as matching the annotation color for "pure-play internet" to its corresponding line.
 
-However, the visualization has several elements that distract from the chart's ability to deliver key stories to the audience. The alignment and margins are slightly off, and the unaligned annotations create visual clutter tiring the eyes of the readers. Moreover, I was confused about the chart's accuracy and proportions. The Y-axis lacks labels and appears disproportionate to the values it represents, and the "50%" mark on the Online Ads line is not explained at all. While the color choices successfully separate the media types, they fail to emphasize the core narrative of growth versus decline in each medium at first glance.
+However, the visualization has several elements that distract from the chart's ability to deliver key stories to the audience. The alignment and margins are slightly off, and the unaligned annotations create visual clutter, tiring the eyes of the readers. Moreover, I was confused about the chart's accuracy and proportions. The Y-axis lacks labels and appears disproportionate to the values it represents, and the "50%" mark on the Online Ads line is not explained at all. While the color choices successfully separate the media types, they fail to emphasize the core narrative of growth versus decline in each medium at first glance.
 
 The primary audience for this visualization will include, but not be limited to, industry professionals—Marketers, Advertisers, and Media Planners—as well as Business Executives. I believe the visualization is only partially effective for this group. While it successfully delivers the high-level story of internet dominance with a simple, straightforward line graph, it lacks the execution required for professionals. It conveys the core message on a surface level, but the technical misses and distracting design elements overall confuse the context that the creator wants to deliver.
 
@@ -85,7 +85,7 @@ While I was open to any feedback, my primary focus was to determine if the dumbb
 |----------|-------------|-------------|
 | Can you tell me what you think this is? | It looks like a grouped bar chart (later the person said it's a barbell chart), comparing values across different media categories between two specific years, 2012 and 2020. | A snapshot of the advertising industry share? Or perhaps how much they are making. I think it shows where the money was going from 2012 to 2020 based on the title. |
 | Can you see the main story/context that I'm trying to propose? | The story seems like internet advertising is rising drastically over time, while everything else, especially directories and Newspapers, is the least influential platform. The gap between the dots shows the intensity of that change. Yet, it is unclear what exact value the story is trying to tell. | Again, based on the title and the location of each line, it is telling me that traditional marketing channels are old and decreasing. For the marketer, it suggests that they should allocate the budget, which will be spent on the internet and TV, rather than the old marketing tools. |
-| Is there anything you find interesting, surprising, or confusing? | The chart type works in a way to compare two different time periods with the circles at both ends of the lines. However, I'm definitely confused about the axis. The sketch says '% or $?' at the bottom. Without knowing what the percentage on the x-axis represents, it's difficult to judge the scale, and more importantly, it will not be effective in telling the story. Also, I'm not sure why you only show 2012 and 2020 if the data has 2024 data. It seems to me the projection could tell more interesting insights. | I was surprised by how big a difference the impact of each marketing strategy has. And I like the lines with the two emphases on each year, and how you plan to apply different colors for contrast. The most confusing part is the timeline and the x-axis. The y-axis is clear to understand without any label, but I cannot tell what the x-axis represents. Also, it was difficult to tell what the circles at the end of each line meant. I didn't read the subtitle, and it took me a while to figure it out. Still, it is a cool idea in terms of design. Just clarify better by using maybe legends or text next to the circle. |
+| Is there anything you find interesting, surprising, or confusing? | The chart type works in a way to compare two different time periods with the circles at both ends of the lines. However, I'm definitely confused about the axis. The sketch says "%" or "$"? at the bottom. Without knowing what the percentage on the x-axis represents, it's difficult to judge the scale, and more importantly, it will not be effective in telling the story. Also, I'm not sure why you only show 2012 and 2020 if the data has 2024 data. It seems to me the projection could tell more interesting insights. | I was surprised by how big a difference the impact of each marketing strategy has. And I like the lines with the two emphases on each year, and how you plan to apply different colors for contrast. The most confusing part is the timeline and the x-axis. The y-axis is clear to understand without any label, but I cannot tell what the x-axis represents. Also, it was difficult to tell what the circles at the end of each line meant. I didn't read the subtitle, and it took me a while to figure it out. Still, it is a cool idea in terms of design. Just clarify better by using maybe legends or text next to the circle. |
 | Who do you think is the target audience for this sketch? | Marketing industry professionals or data analysts are trying to apply ad strategies based on the trend. | Business professionals, brand managers, or entertainment executives, etc. People who need to justify why they should invest heavily in the internet and want to find some alternative marketing options. |
 | Is there anything you would change or do differently? | Definitely add the 2024 projection if you can. It might make the line wider or have two different charts side-by-side. Still, the 2024 projection will catch more attention than just showing the actual outcomes only. Also, figure out how to make the x-axis clearer because that's where the most ambiguity comes from. Consider adding legends, labels, or a note next to the dots so I don't have to scan down to the axis. | To make the story stronger, I would make the "Internet" line stand out. You already said the "Internet" line will be in red, so that might work. I will also clarify whether you want to use the "%" or "$" for the x-axis and clarify them on the visualization. Additionally, the current chart doesn't indicate which dots represent 2012 and 2020. This is important because it will tell whether there was a decrease or an increase! You can consider adding an arrow or something similar. And maybe sort them by the biggest increase to smallest, or biggest decrease to smallest, to show some uniformity. |
 
@@ -103,32 +103,39 @@ Based on the feedback, here are some of the redesign ideas that I am considering
 
 I used Tableau for building the final visualization. My main goal was to clarify the narrative: the aggressive shift of advertising strategy toward the Internet compared to traditional media. Below are the journey I took, the final visualization, and comments on each step.
 
+Before starting the redesign in Tableau, I first took a look at the original dataset, Share of US Ad Spend.xlsx, to understand the variables. I immediately noticed an inconsistency between the dataset and the original visualization, which focuses on Ad Spend Share (%). The raw data values appeared to be monetary amounts. I learned that these values actually represented Media Ad Revenue, not spending, according to the original source mid-year report [^1]. I was planning to redesign the chart, focusing on the revenue (the outcome), so this wasn't an issue, but it was a good note to make.
+
 <img width="547" height="385" alt="Screenshot 2025-11-14 at 10 08 02 PM" src="https://github.com/user-attachments/assets/a8fc85ec-f8de-4032-87a9-dbe210941ccf" />
 
-Source: GroupM. (2020). The US Mid-Year 2020 Advertising Forecast: This Year, Next Year – Mid-Year Report. GroupM Worldwide, Inc. Published June 16, 2020. [PDF]. Page 15. Available from: https://data.world/makeovermonday/2020w46/workspace/file?filename=groupmusadvertisingforecast-1.pdf
-
-Before building the visualization in Tableau, I first took a look at the original dataset, Share of US Ad Spend.xlsx, to understand the variables. I immediately noticed an inconsistency between the dataset and the original visualization, which focuses on Ad Spend Share (%). The raw data values appeared to be monetary amounts. I learned that these values actually represented Media Ad Revenue, not spending, according to the original source mid-year report [^1].
-
-I was planning to redesign the chart, focusing on the revenue (the outcome), so this wasn't an issue, but it was a good note to make.
-
-<img width="557" height="339" alt="Screenshot 2025-11-14 at 10 17 47 PM" src="https://github.com/user-attachments/assets/54755b8e-5733-41b7-9997-21e39e870373" />
-<img width="557" height="339" alt="Screenshot 2025-11-14 at 10 17 19 PM" src="https://github.com/user-attachments/assets/2d9c5b12-70d7-415a-904c-88381392b810" />
+- Source: GroupM. (2020). The US Mid-Year 2020 Advertising Forecast: This Year, Next Year – Mid-Year Report. GroupM Worldwide, Inc. Published June 16, 2020. [PDF]. Page 15. Available from: https://data.world/makeovermonday/2020w46/workspace/file?filename=groupmusadvertisingforecast-1.pdf
 
 After reading the raw dataset, I imported the data into Tableau and changed the variable names ("Year" and "Revenue") for clarity.
 
-<img width="356" height="266" alt="Screenshot 2025-11-14 at 10 26 27 PM" src="https://github.com/user-attachments/assets/7096b061-9ac3-4b8e-931d-06df5f2465e6" />
+<img width="557" height="339" alt="Screenshot 2025-11-14 at 10 17 47 PM" src="https://github.com/user-attachments/assets/54755b8e-5733-41b7-9997-21e39e870373" />
 
-The raw data was highly segmented, containing variables for both "Type" (broad categories like TV) and "Source" (sub-categories like National vs. Local TV). The original visualization displayed over eight categories, which felt overwhelming and contributed to the visual noise I identified in my critique.
+<img width="557" height="339" alt="Screenshot 2025-11-14 at 10 17 19 PM" src="https://github.com/user-attachments/assets/2d9c5b12-70d7-415a-904c-88381392b810" />
 
-To improve perceptibility, I cleaned the data by:
+The data was segmented in much detail, containing variables for both "Type" (broad categories like TV) and "Source" (sub-categories like National vs. Local TV). 
 
-Excluding "Source" variables: I removed granular sub-categories to focus on the macro trends.
+The original visualization displayed over eight categories, which felt overwhelming and distracting for the readers. To improve conciseness and visibility, I excluded "Source" variables to focus on the macro trends. The grouping of minor categories, such as "Direct Mail," "Directories," and "Out-of-Home," into a single "Other" category would still display their values, but it doesn't stand out since it doesn't provide much meaningful insight for those platforms.
 
-Grouping minor categories: I combined "Direct Mail," "Directories," and "Out-of-Home" into a single "Other" category.
+I also changed "Pure-Play Internet" to simply "Internet" for conciseness. This narrowed the focus to six major media types, letting the viewer not get distracted by minor variables.
 
-Renaming: I changed "Pure-Play Internet" to simply "Internet" for conciseness.
+<img width="332" height="298" alt="Screenshot 2025-11-14 at 9 46 22 PM" src="https://github.com/user-attachments/assets/f3e13b3d-1460-4540-b99f-cc2e9c62107d" />
 
-This narrowed the focus to six major media types, ensuring the viewer wouldn't be distracted by minor variables.
+<img width="356" height="266" alt="Screenshot 2025-11-14 at 10 26 27 PM" src="https://github.com/user-attachments/assets/1ef55d45-94e4-41ff-9443-8f78f52cc48f" />
+
+Based on the feedback from the interview, I moved forward with the Dumbbell Chart design. I placed "Type" of media on the Y-axis and "Sum(Revenue)" to show the total for each year on the X-axis. This created the horizontal line graph or thin bar graph. Then, I filtered "Year" to make the visualization only contain the data from three key years: 2012 (the past), 2020 (the recent shift), and 2024 (the projection).
+
+<img width="1512" height="982" alt="Screenshot 2025-11-14 at 10 29 56 PM" src="https://github.com/user-attachments/assets/e4f6eff3-d16e-4d36-9291-7d80bef5fe19" />
+
+As shown in the previous step, the challenge I faced during the redesign was determining how to visually represent the three distinct years (2012, 2020, 2024) on the line. While the line is created based on the revenue data from those three years only, it was not showing on the chart, making it impossible for readers to know which year generated how much revenue. 
+
+I applied the technique learned in class, which involves overlapping the exact visualization with different design elements to convey multiple contexts. I created a copy of the chart by duplicating the "SUM(Revenue)" variable in a column, which made exactly the same chart side by side. Then, I changed the design from a line to a circle on the Marks tab to create three dots, representing each year, on the copied chart. 
+
+The color of the lines on the graph's left side changed to red to make the dots visible when two charts are merged.
+
+<img width="1512" height="982" alt="Screenshot 2025-11-14 at 10 38 39 PM" src="https://github.com/user-attachments/assets/e885ece1-548d-4265-b587-a069a7665c99" />
 
 ### Final Visualization
 
@@ -142,7 +149,7 @@ This narrowed the focus to six major media types, ensuring the viewer wouldn't b
   vizElement.parentNode.insertBefore(scriptElement, vizElement);                
 </script>
 
-
+The result is a clear, data-driven narrative that engages the audience about the massive revenue gap between digital and traditional media, without the clutter of the original line chart.
 
 ## References
 Few, Stephen. "Data Visualization Effectiveness Profile." Perceptual Edge, January/February/March 2017, http://www.perceptualedge.com/articles/visual_business_intelligence/data_visualization_effectiveness_profile.pdf
