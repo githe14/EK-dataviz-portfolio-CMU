@@ -103,17 +103,21 @@ Based on the feedback, here are some of the redesign ideas that I am considering
 
 I used Tableau for building the final visualization. My main goal was to clarify the narrative: the aggressive shift of advertising strategy toward the Internet compared to traditional media. Below are the journey I took, the final visualization, and comments on each step.
 
-Before starting the redesign in Tableau, I first took a look at the original dataset, Share of US Ad Spend.xlsx, to understand the variables. I immediately noticed an inconsistency between the dataset and the original visualization, which focuses on Ad Spend Share (%). The raw data values appeared to be monetary amounts. I learned that these values actually represented Media Ad Revenue, not spending, according to the original source mid-year report [^1]. I was planning to redesign the chart, focusing on the revenue (the outcome), so this wasn't an issue, but it was a good note to make.
-
 <img width="547" height="385" alt="Screenshot 2025-11-14 at 10 08 02 PM" src="https://github.com/user-attachments/assets/a8fc85ec-f8de-4032-87a9-dbe210941ccf" />
 
 - Source: GroupM. (2020). The US Mid-Year 2020 Advertising Forecast: This Year, Next Year – Mid-Year Report. GroupM Worldwide, Inc. Published June 16, 2020. [PDF]. Page 15. Available from: https://data.world/makeovermonday/2020w46/workspace/file?filename=groupmusadvertisingforecast-1.pdf
 
-After reading the raw dataset, I imported the data into Tableau and changed the variable names ("Year" and "Revenue") for clarity.
+Before starting the redesign in Tableau, I first took a look at the original dataset, Share of US Ad Spend.xlsx, to understand the variables. I immediately noticed an inconsistency between the dataset and the original visualization, which focuses on Ad Spend Share (%). The raw data values appeared to be monetary amounts. I learned that these values actually represented Media Ad Revenue, not spending, according to the original source mid-year report [^1]. I was planning to redesign the chart, focusing on the revenue (the outcome), so this wasn't an issue, but it was a good note to make.
 
 <img width="557" height="339" alt="Screenshot 2025-11-14 at 10 17 47 PM" src="https://github.com/user-attachments/assets/54755b8e-5733-41b7-9997-21e39e870373" />
 
 <img width="557" height="339" alt="Screenshot 2025-11-14 at 10 17 19 PM" src="https://github.com/user-attachments/assets/2d9c5b12-70d7-415a-904c-88381392b810" />
+
+After reading the raw dataset, I imported the data into Tableau and changed the variable names ("Year" and "Revenue") for clarity.
+
+<img width="332" height="298" alt="Screenshot 2025-11-14 at 9 46 22 PM" src="https://github.com/user-attachments/assets/f3e13b3d-1460-4540-b99f-cc2e9c62107d" />
+
+<img width="356" height="266" alt="Screenshot 2025-11-14 at 10 26 27 PM" src="https://github.com/user-attachments/assets/1ef55d45-94e4-41ff-9443-8f78f52cc48f" />
 
 The data was segmented in much detail, containing variables for both "Type" (broad categories like TV) and "Source" (sub-categories like National vs. Local TV). 
 
@@ -121,13 +125,11 @@ The original visualization displayed over eight categories, which felt overwhelm
 
 I also changed "Pure-Play Internet" to simply "Internet" for conciseness. This narrowed the focus to six major media types, letting the viewer not get distracted by minor variables.
 
-<img width="332" height="298" alt="Screenshot 2025-11-14 at 9 46 22 PM" src="https://github.com/user-attachments/assets/f3e13b3d-1460-4540-b99f-cc2e9c62107d" />
-
-<img width="356" height="266" alt="Screenshot 2025-11-14 at 10 26 27 PM" src="https://github.com/user-attachments/assets/1ef55d45-94e4-41ff-9443-8f78f52cc48f" />
+<img width="1512" height="982" alt="Screenshot 2025-11-14 at 10 29 56 PM" src="https://github.com/user-attachments/assets/e4f6eff3-d16e-4d36-9291-7d80bef5fe19" />
 
 Based on the feedback from the interview, I moved forward with the Dumbbell Chart design. I placed "Type" of media on the Y-axis and "Sum(Revenue)" to show the total for each year on the X-axis. This created the horizontal line graph or thin bar graph. Then, I filtered "Year" to make the visualization only contain the data from three key years: 2012 (the past), 2020 (the recent shift), and 2024 (the projection).
 
-<img width="1512" height="982" alt="Screenshot 2025-11-14 at 10 29 56 PM" src="https://github.com/user-attachments/assets/e4f6eff3-d16e-4d36-9291-7d80bef5fe19" />
+<img width="1512" height="982" alt="Screenshot 2025-11-14 at 10 38 39 PM" src="https://github.com/user-attachments/assets/e885ece1-548d-4265-b587-a069a7665c99" />
 
 As shown in the previous step, the challenge I faced during the redesign was determining how to visually represent the three distinct years (2012, 2020, 2024) on the line. While the line is created based on the revenue data from those three years only, it was not showing on the chart, making it impossible for readers to know which year generated how much revenue. 
 
@@ -135,17 +137,26 @@ I applied the technique learned in class, which involves overlapping the exact v
 
 The color of the lines on the graph's left side changed to red to make the dots visible when two charts are merged.
 
-<img width="1512" height="982" alt="Screenshot 2025-11-14 at 10 38 39 PM" src="https://github.com/user-attachments/assets/e885ece1-548d-4265-b587-a069a7665c99" />
+<img width="967" height="481" alt="image" src="https://github.com/user-attachments/assets/41af3212-dfdc-47ba-b38d-73117a8d70e9" />
 
 I merged two graphs, showing the same trend line with three dots representing each year. 
 
-<img width="967" height="481" alt="image" src="https://github.com/user-attachments/assets/41af3212-dfdc-47ba-b38d-73117a8d70e9" />
+<img width="1512" height="982" alt="Screenshot 2025-11-14 at 10 44 37 PM" src="https://github.com/user-attachments/assets/71669c70-a6c1-48db-9b60-971c155a92db" />
 
-From here, I explored different styles to balance the visibility between the connecting lines and the dots. Some of the options include changing the shape and changing the size of the shapes as shown below. 
+<img width="1512" height="982" alt="Screenshot 2025-11-14 at 10 44 32 PM" src="https://github.com/user-attachments/assets/26aec573-8164-4907-b084-4435dbf95307" />
 
-This allowed me to create thick grey bars to represent the "path" and overlay distinct circles for the specific years.
+From here, I explored different style elements to balance the visibility between the connecting lines and the dots. Some of the options include changing the shape and resizing the shapes, as shown above. 
 
-I found that placing the circles inside the thick bar was visually more organized than having them protrude, especially since some data points (like Radio) were close together.
+<img width="1512" height="982" alt="Screenshot 2025-11-14 at 10 49 02 PM" src="https://github.com/user-attachments/assets/c4812b65-3a76-4ad3-b053-6a117a4e3edf" />
+
+Another concern was how to tell the readers which dot represents which year. As shown above, notes on each dot were overwhelming in both contextual and design-wise. Based on the feedback, I decided to change the bar to grey, apply different colors over three years, and include legends to explain which year each color represents.
+
+<img width="1512" height="982" alt="Screenshot 2025-11-14 at 10 49 02 PM" src="https://github.com/user-attachments/assets/9b0957a3-4eae-43ca-8b7a-80f2dc3c95fb" />
+
+After many iterations, I concluded that changing the shape isn't too effective. Keeping the design of the trendline as a straight line with rounded edges, and using a circular dot for the year, was the best option. 
+Therefore, I increased the thickness of each line, representing a bar, and placed circular dots inside the bars. Because some of the values ("Year") were too close to each other on the chart, if I increased the size of the dots alone, they would overlap and not be distinguishable from one another. This allowed me to create thick grey bars to represent the path and overlay distinct circles for the specific years.
+
+Lastly, I made the final minor modifications, such as removing the x-axis label at the top and adding a clear and engaging title. Additionally, I sorted the order to align the media types on the Y-axis by 2024 Revenue (from High to Low). So, the visualization places "Internet" at the very top, intuitively expressing its dominance.
 
 ### Final Visualization
 
