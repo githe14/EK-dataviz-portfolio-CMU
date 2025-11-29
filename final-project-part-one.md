@@ -41,12 +41,13 @@ This chart provides a macro view of the overall music revenue in the data set, p
 
 ### The data
 
-The primary source of the analysis will be based on RIAA (Recording Industry Association of America) data. The source is found via Kaggle, called "Music Industry Sales (1973 - 2019)".
+The primary source of the analysis will be based on RIAA (Recording Industry Association of America) data. 
+The source is found via Kaggle, called "Music Industry Sales (1973 - 2019)".
 
 | Name | URL | Description |
 |------|-----|-------------|
-| Music Industry Sales (1973-2019)     | (https://www.kaggle.com/datasets/andrewmvd/music-sales?resource=download)    | A comprehensive historical record of US music industry sales, broken down by format (e.g., CD, Vinyl, Streaming).            |
-| Copy of CSV (Keggle)     |  (https://www.kaggle.com/datasets/andrewmvd/music-sales?resource=download)   | A  copy of the dataset uploaded to this repository from the same source above            |
+| Music Industry Sales (1973-2019)     | https://www.kaggle.com/datasets/andrewmvd/music-sales?resource=download    | A comprehensive historical record of US music industry sales, broken down by format (e.g., CD, Vinyl, Streaming).            |
+| Copy of CSV (Keggle)     |  https://www.kaggle.com/datasets/andrewmvd/music-sales?resource=download   | A  copy of the dataset uploaded to this repository from the same source above            |
 
 ### Method and Medium
 
