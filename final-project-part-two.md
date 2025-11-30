@@ -21,7 +21,8 @@ After reflecting on my initial proposal and doing further research, I decided to
 
 Furthermore, heavily relying on the single RIAA dataset limited the depth of my project. I realized that a project focused solely on industry revenue lacks a meaningful "call to action" or "next steps" for the target audience. To create a more impactful narrative, I want to look beyond sales figures and explore any chain reactions (cause-and-effect analysis) that drive those numbers or are affected by the format wars. As a result, I will be able to contextualize my story with more layered stories, rather than an obvious trend, by leveraging additional resources and a more specific dataset.
 
-## The New Direction - Idea B: The Attention Economy
+## The New Direction
+## Idea B - The Attention Economy: How Streaming Changed the Songwriting
 
 I have decided to elevate the project topic without throwing away the entire concept related to the trend in the music industry by shifting the main focus from the **macro** perspective(Industry Revenue) to the **micro** analysis (Songwriting Behavior). Instead of a general overview of physical to streaming, I will now concentrate on how we, as general music consumers, and the medium forced artists to change their behavior and strategy in songwriting. This will allow the project to move beyond exploring what happened (shift in music consumption/sales) to inform why it matters (incentives and behavior of songwriting).
 
@@ -60,19 +61,33 @@ To support my narrative arc, I will be using a new dataset, "Spotify Dataset 192
 ![IMG_3250](https://github.com/user-attachments/assets/2602239e-b4eb-4270-83d1-89fba085c98b)
 
 ## Wireframes / Storyboards
-> Using your sketches developed last week, further develop your story outline and relevant components visually through the use of wireframing / storyboards. Using your outline as a guide, include high-fidelity, individual draft data visualizations of the critical elements of your story you want to share with your reader. Note: you can build these elements out directly in Shorthand this week if you wish.  Reminder: this template is intended to help, but it doesn't substitute for reading through the full homework assignment!  The assignment page on Canvas includes many important details for completing Part II of the final project. 
 
-Text here!
+This part further develops the newly revised story outline and any relevant components visually by using wireframes or storyboards. I built this directly in Shorthand and will continue to modify it to use as a final presentation. The final presentation will be pitched in class.
 
-## User research 
+Shorthand: [link](https://preview.shorthand.com/fK2rfgIjuiaeQc)
 
-### Target audience
-> Include your approach to identifying representative individuals, and who you hope to reach with your story. 
+## User Research 
 
-Text here!
+### Target Audience
+
+The primary target audience for this project is the general music consumer, specifically music enthusiasts or regular listeners with an interest in the industry but unaware of the financial structures behind the music they enjoy, such as pro-rata or the 30-second rule. Another audience segment I can consider is artists themselves — musicians, songwriters, and other creators — who lack detailed knowledge about industry financial models. I do not expect this segment to be significant, but it may include aspiring or outdated artists. While smaller in size, this group can benefit from this project by gaining insights to maximize their financial incentives in an ever-evolving complex ecosystem.
+
+While some might argue that the key target should be those in the industry, I disagree because most, if not all, are involved in the music market and are well-aware of the key contexts of this project, as it is the core foundation of monetization. For instance, industry professionals or executives may not be the right fit, as they often design and work for the system. Most pro-musicians (or even semi-pro level) already know this as well, since they are living it. The consumer is the one who is unaware of this story. They might think music is changing naturally, not realizing they are being influenced by their consumption behavior and manipulated by an algorithm.
+
+> Recruitment Approach:
+> Finding my target audience (general music consumer) wasn't very difficult. However, I wanted to conduct interviews with three individuals who have varying levels of interest in and involvement with music and still fit the demographic profile. I thought this would provide unbiased and comprehensive feedback compared to selecting interviewees who share the same level of musical engagement. Below are the general descriptions of three interviewees.
+> 1. Interview A (Power User): CMU Master of Entertainment Industry Management student. Heavily interested in the music/entertainment industry. Listens to 4+ hours of music daily and curates playlists.
+> 2. Interview B (Passive Listener): UCLA master's student studying data analytics. Listens to music while working/commuting, relies on algorithmic playlists. Considered the least involved in music consumption out of all interviewees.
+> 3. Interview C (Casual Listeners): CMU master student pursuing a project management career path. Listens to music occasionally and has a moderate amount of interest in the market. Attends concerts sometimes with friends. 
 
 ### Interview script
 > List the goals from your research, and the questions you intend to ask.
+
+Validate the Hook: Do users actually know about the "30-second rule"? (If they already know, the story lacks impact).
+
+Test the Visualization: Is the drop in song duration obvious in the line chart, or does it need more annotation?
+
+Check the Narrative: Does the connection between "Financial Incentives" and "Shorter Songs" make sense to a layperson?
 
 Text here!
 
@@ -120,10 +135,6 @@ Text here!
 
 Text here!
 
-## Moodboards / personas
-> If you did this optional part, include details here.  Otherwise remove this section
-
-Text here!
 
 ### References
 Ay, Y. E. (2020). Spotify Dataset 1921-2020, 160k+ Tracks. Kaggle. https://www.kaggle.com/datasets/yamaerenay/spotify-dataset-1921-2020-160k-tracks
@@ -131,7 +142,6 @@ McIver, A. (2020). Music Industry Sales (1973 - 2019). Kaggle. https://www.kaggl
 Recording Industry Association of America. (2023). Music Industry Facts. RIAA. https://www.riaa.com/facts/
 Spotify. (2025). Loud & Clear: Annual Music Economics Report. https://loudandclear.byspotify.com/#takeaway-2
 Trolley. (2024, May 2). So, how exactly do streaming services calculate royalties? Trolley Learning Center. https://trolley.com/learning-center/so-how-exactly-do-streaming-services-calculate-royalties/
-
 
 ### AI acknowledgements
 _If you used AI to help you complete this assignment (within the parameters of the instruction and course guidelines), detail your use of AI for this assignment here._
