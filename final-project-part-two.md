@@ -16,10 +16,40 @@ For my initial visualization sketch, shown below, I used a stacked area chart to
 
 ### Why am I Pivoting Project Proposal?
 
-The reason is that the initial idea was too broad in terms of topic, and doesn't provide much insight or a story that the readers/users can take away from the project. It lacks a meaningful "call to action" that prompts readers to feel they have learned something and leaves them with a clear next step. Moreover, I'm heavily relying on a single resource and dataset (https://www.kaggle.com/datasets/andrewmvd/music-sales?resource=download) I found for IDEA A. This doesn't provide in-depth context. Thus, further contextualizing my story with more resources and data was needed. Overall, IDEA A is a solid topic to set the stage by narrating the shift from "Physical" to "Streaming" using Music Industry Sales data, but it presents an overly broad macro-level analysis.
+After reflecting on my initial proposal and doing further research, I decided to pivot from Idea A to a new topic. While the RIAA's music sales data effectively illustrates the macro-level history of the music consumption and sales trends, it struggles to have the the thoughtful analysis and doesn't provide much insights/story that the readers can take away from the project. The story of format wars can be discussed to provide any necessary historical background of music industry, but I felt my initial approach was too broad to offer unique interpretation other than surface-level information that most already knows. It works more like a history lesson than a compelling data story with a clear takeaway.
 
+Furthermore, heavily relying on the single RIAA dataset limited the depth of my project. I realized that a project focused solely on industry revenue lacks a meaningful "call to action" or "next steps" for the target audience. To create a more impactful narrative, I want to look beyond sales figures and explore any chain reactions (cause-effect analysis) that drive those numbers or affected by the format wars. As a result, I will be able to contextualize my story with more layered stories, rather than obvious trend, by leveraging additional resources and a more specific dataset.
 
+### The New Direction - Idea B: The Attention Economy
 
+I have decided to elevate the project topic without throwing away the entire concept related to the trend in the music industry by shifting the main focus from the **macro** perspective(Industry Revenue) to the **micro** analysis (Songwriting Behavior). Instead of a general overview of physical to streaming, I will now concentrate on how the us, as general music consumer, and medium forced artists to change their behavior and strategy in songwriting. This will allow the project to move beyond exploring what happened (shift in music consumption/sales) to inform why it matters (incentives and behavior of songwriting).
+
+My new proposal transforms the project from a surface-level exploratory analysis into an explanatory/informative story that answers a specific question: **How has the financial incentives of streaming changed the songwriting behavior?**
+
+* **Narrative Arc:**
+The music industry has moved from ownership (buying a CD or downloading a MP3 file) to a streaming (paid for access), which requires much more attention of the listneres to get incentivized. In this new model, platforms like Spotify or Apple Music do not pay the artists and songwriters for the sale of a song. Instead, they pay for retention.
+
+The music industry has a complicated system of monetization that cannot be explained in simple terms. Still, even though the financial models of each digital streaming platform are slightly different and ever-changing, I will focus on two key metrics that are relevant to my narrative: the 30‑second rule and the pro‑rata pool. In the simplest definition, the financial incentive works only after 30 seconds of listening, and artists are paid based on their share of total platform streams in a certain period (Trolley, 2024). This monetization system, caused by the shift in music consumption, forces artists to adopt new strategies in their songwriting: making songs shorter, faster, and optimized to maximize revenue in the modern music listening system.
+
+In conclusion, I want to inform the target audience (general music consumer) the influence of their behavior. From this project, the audience will be able to understand that "listening music isn't simply listening music", rather the listening behavior throughout period influences the market, financial models, and the music itself.  Furthuremore, my goal is to leave several insights or next steps, such as what will be the next trend in music consuption or how to support the artists when listening music.
+
+* **Data & Sketches:**
+To support my narrative arc, I will be using a new dataset "Spotify Dataset 1921-2020, 160k+ Tracks" via Kaggle. This dataset includes comprehensive information about audio features, popularity scores, and duration data for over 160,000 songs. From this data, I plan to visualize the shift in song duration over time, and key examples (Top Hits) that explains that shift easier to the audience.
+
+| Name | URL | Description |
+|------|-----|-------------|
+| Spotify Dataset 1921-2020, 160k+ Tracks     | [https://www.kaggle.com/datasets/andrewmvd/music-sales?resource=download](https://www.kaggle.com/datasets/yamaerenay/spotify-dataset-1921-2020-160k-tracks)    | A comprehensive Spotify music data over 100 years. There are several datasets that are pre-filtered, and I will be master file, called "data.csv"            |
+
+![IMG_3250](https://github.com/user-attachments/assets/2602239e-b4eb-4270-83d1-89fba085c98b)
+Line graph: Visualizing the steep decline in average song duration over the last decade.
+
+![IMG_3249](https://github.com/user-attachments/assets/eb1bb861-1e4a-48d7-961a-89de590b41b3)
+Waveform Comparison: Comparison of a wave form of popular song in physical era (long flat intro) vs. a wave form of a song in modern streaming era (immediately loud and skips intro). This example will illustrate that difference in the structure of songwriting.
+
+![IMG_3248](https://github.com/user-attachments/assets/22e47b64-a63d-4f5f-84e4-f9d44d4a93f8)
+Table: While I haven't decided whether to use this data viz, I want to show popular music's song duration in each time period telling that song times are shrinking even faster as streaming emerges as a dominant medium. Showing the most successful songs in each period and its song duration will help the audience to understand better.
+
+* **Merging the Ideas:** I plan to not ignore Idea A (From Vinyl to Viral) entirely since the music sales data can serve as the foundational context to set the stage by showing the shift from physical to digital dominance. However, the core narrative and visualizations of this project will focus on Idea B and its data.
 
 ## Wireframes / storyboards
 > Using your sketches developed last week, further develop your story outline and relevant components visually through the use of wireframing / storyboards. Using your outline as a guide, include high-fidelity, individual draft data visualizations of the critical elements of your story you want to share with your reader. Note: you can build these elements out directly in Shorthand this week if you wish.  Reminder: this template is intended to help, but it doesn't substitute for reading through the full homework assignment!  The assignment page on Canvas includes many important details for completing Part II of the final project. 
@@ -34,9 +64,15 @@ Text here!
 Text here!
 
 ### Interview script
-> List the goals from your research, and the questions you intend to ask. 
+> List the goals from your research, and the questions you intend to ask.
 
 Text here!
+
+Question 1: "When you listen to a spotify playlist or other DSP, how long do you listen to a song before you decide to skip it?"
+
+Question 2: "Does this chart surprise you? Did you notice songs were getting shorter?"
+
+Question 3: "If I told you artists get paid the same for a 30-second play as a 10-minute play, does this trend make sense to you?"
 
 | Goal | Questions to Ask |
 |------|------------------|
@@ -67,8 +103,8 @@ Text here!
 | Research synthesis                       | Anticipated changes for Part III                                                |
 |------------------------------------------|---------------------------------------------------------------------------------|
 | Findings or observations from interviews | Describe what, if any changes you anticipate making to address the observation. |
-|                                          |                                                                                 |
-|                                          |                                                                                 |
+| Still lacks in Call-to-action.... |                                                                                 |
+| Few more graphs                                         |                                                                                 |
 |                                          |                                                                                 |
 | ...add more rows as necessary            |                                                                                 |
 
@@ -82,7 +118,12 @@ Text here!
 Text here!
 
 ### References
+Ay, Y. E. (2020). Spotify Dataset 1921-2020, 160k+ Tracks. Kaggle. https://www.kaggle.com/datasets/yamaerenay/spotify-dataset-1921-2020-160k-tracks
 McIver, A. (2020). Music Industry Sales (1973 - 2019). Kaggle. https://www.kaggle.com/datasets/andrewmvd/music-sales
+Recording Industry Association of America. (2023). Music Industry Facts. RIAA. https://www.riaa.com/facts/
+Spotify. (2025). Loud & Clear: Annual Music Economics Report. https://loudandclear.byspotify.com/#takeaway-2
+Trolley. (2024, May 2). So, how exactly do streaming services calculate royalties? Trolley Learning Center. https://trolley.com/learning-center/so-how-exactly-do-streaming-services-calculate-royalties/
+
 
 ### AI acknowledgements
 _If you used AI to help you complete this assignment (within the parameters of the instruction and course guidelines), detail your use of AI for this assignment here._
