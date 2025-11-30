@@ -74,46 +74,30 @@ The primary target audience for this project is the general music consumer, spec
 
 While some might argue that the key target should be those in the industry, I disagree because most, if not all, are involved in the music market and are well-aware of the key contexts of this project, as it is the core foundation of monetization. For instance, industry professionals or executives may not be the right fit, as they often design and work for the system. Most pro-musicians (or even semi-pro level) already know this as well, since they are living it. The consumer is the one who is unaware of this story. They might think music is changing naturally, not realizing they are being influenced by their consumption behavior and manipulated by an algorithm.
 
-> Recruitment Approach:
-> Finding my target audience (general music consumer) wasn't very difficult. However, I wanted to conduct interviews with three individuals who have varying levels of interest in and involvement with music and still fit the demographic profile. I thought this would provide unbiased and comprehensive feedback compared to selecting interviewees who share the same level of musical engagement. Below are the general descriptions of three interviewees.
-> 1. Interview A (Power User): CMU Master of Entertainment Industry Management student. Heavily interested in the music/entertainment industry. Listens to 4+ hours of music daily and curates playlists.
-> 2. Interview B (Passive Listener): UCLA master's student studying data analytics. Listens to music while working/commuting, relies on algorithmic playlists. Considered the least involved in music consumption out of all interviewees.
-> 3. Interview C (Casual Listeners): CMU master student pursuing a project management career path. Listens to music occasionally and has a moderate amount of interest in the market. Attends concerts sometimes with friends. 
+### Identifying Individuals to Interview
+
+Finding my target audience (general music consumer) wasn't very difficult. However, I wanted to conduct interviews with three individuals who have varying levels of interest in and involvement with music and still fit the demographic profile. I thought this would provide unbiased and comprehensive feedback compared to selecting interviewees who share the same level of musical engagement. Below are the general descriptions of three interviewees.
+
+1. Interview A (Power User): CMU Master of Entertainment Industry Management student. Heavily interested in the music/entertainment industry. Listens to 4+ hours of music daily and curates playlists.
+2. Interview B (Passive Listener): UCLA master's student studying data analytics. Listens to music while working/commuting, relies on algorithmic playlists. Considered the least involved in music consumption out of all interviewees.
+3. Interview C (Casual Listeners): CMU master student pursuing a project management career path. Listens to music occasionally and has a moderate amount of interest in the market. Attends concerts sometimes with friends. 
 
 ### Interview script
-> List the goals from your research, and the questions you intend to ask.
 
-Validate the Hook: Do users actually know about the "30-second rule"? (If they already know, the story lacks impact).
-
-Test the Visualization: Is the drop in song duration obvious in the line chart, or does it need more annotation?
-
-Check the Narrative: Does the connection between "Financial Incentives" and "Shorter Songs" make sense to a layperson?
-
-Text here!
-
-Question 1: "When you listen to a spotify playlist or other DSP, how long do you listen to a song before you decide to skip it?"
-
-Question 2: "Does this chart surprise you? Did you notice songs were getting shorter?"
-
-Question 3: "If I told you artists get paid the same for a 30-second play as a 10-minute play, does this trend make sense to you?"
+While not strictly limited to these, below are the questions I planned to ask three interviewees, along with the goal behind each question.
 
 | Goal | Questions to Ask |
 |------|------------------|
-|      |                  |
-|      |                  |
-|      |                  |
-
-
-Text here!
+| To validate the consumer behavior, I want to confirm if listeners actually skip songs either consciously or unconsciously. | "Try to think of the recent time you listened to a random playlist. How quickly do you skip a song if you aren't feeling it? How often do you skip songs? What are the reasons you chose to skip a certain song?" |
+| I need to check whether the 30-second rule is common knowledge to my target audience. If most people already know this, my narrative will likely have little impact and will not offer insights. | "Did you know that streaming platforms like Spotify pay an artist only if you listen to the song for at least 30 seconds?" |
+| Ask about the visualizations and their formats to check that they communicate the trend clearly without additional explanation. |  "Take a look at the charts/sketches. What is the first thing you notice? Can you understand the context it's trying to convey without any other explanations?" |
+| Check the overall storyline/narrative arc of the project | "Do you find the overall project proposal to be understandable and interesting to you? What would be your takeaways?" |
 
 ### Interview findings
-> Detail the findings from your interviews.  Do not include PII.  Capture specific insights where possible.
-
-Text here!
 
 | Questions               | Interview 1 (briefly describe) | Interview 2 | Interview 3 |
 |-------------------------|--------------------------------|-------------|-------------|
-| Question you asked here | Insightful feedback            |             |             |
+| Consumption behavior:  | "If I'm checking out new releases, I have zero patience. If the beat doesn't hit in the first 10 seconds, I skip. I'd say I skip 4 out of 5 songs on a generic playlist." | "I usually listen while coding, so I honestly rarely skip unless a song is super annoying or distracting. I just treat playlists as background noise." | "It depends on my mood, but if a song has a really long, slow intro, I usually skip it immediately. I don't have time to wait for the chorus." |
 |                         |                                |             |             |
 |                         |                                |             |             |
 
