@@ -27,7 +27,7 @@ I have decided to elevate the project topic without throwing away the entire con
 
 My new proposal transforms the project from a surface-level exploratory analysis into an explanatory/informative story that answers a question: **How have the financial incentives of streaming changed the songwriting behavior?**
 
-### Narrative Arc:
+### Narrative Arc
 
 The music industry has shifted from ownership (buying a CD or downloading an MP3 file) to streaming (paid-for access), which requires much more attention from listeners to be incentivized. In this new model, platforms like Spotify or Apple Music do not pay the artists and songwriters for the sale of a song. Instead, they pay for retention.
 
@@ -47,19 +47,19 @@ To support my narrative arc, I will be using a new dataset, "Spotify Dataset 192
 
 ### Sketches
 
-![IMG_3250](https://github.com/user-attachments/assets/2602239e-b4eb-4270-83d1-89fba085c98b)
-
 **Line graph:** Visualizing the steep decline in average song duration over the last decade.
-
-![IMG_3249](https://github.com/user-attachments/assets/eb1bb861-1e4a-48d7-961a-89de590b41b3)
-
-**Waveform Comparison:** Comparison of a waveform of a popular song in the physical era (long flat intro) vs. a waveform of a song in the modern streaming era (immediately loud and skips the intro). This example will illustrate the difference in the structure of songwriting.
 
 ![IMG_3248](https://github.com/user-attachments/assets/22e47b64-a63d-4f5f-84e4-f9d44d4a93f8)
 
+**Waveform Comparison:** Comparison of a waveform of a popular song in the physical era (long flat intro) vs. a waveform of a song in the modern streaming era (immediately loud and skips the intro). This example will illustrate the difference in the structure of songwriting.
+
+![IMG_3249](https://github.com/user-attachments/assets/eb1bb861-1e4a-48d7-961a-89de590b41b3)
+
 **Table:** Although I haven't decided whether to use this data visualization, I want to illustrate the song duration of popular music in each time period, showing that song times are shrinking even faster as streaming emerges as a dominant medium. Showing the most successful songs in each period and their song duration will help the audience understand better.
 
-## Wireframes / storyboards
+![IMG_3250](https://github.com/user-attachments/assets/2602239e-b4eb-4270-83d1-89fba085c98b)
+
+## Wireframes / Storyboards
 > Using your sketches developed last week, further develop your story outline and relevant components visually through the use of wireframing / storyboards. Using your outline as a guide, include high-fidelity, individual draft data visualizations of the critical elements of your story you want to share with your reader. Note: you can build these elements out directly in Shorthand this week if you wish.  Reminder: this template is intended to help, but it doesn't substitute for reading through the full homework assignment!  The assignment page on Canvas includes many important details for completing Part II of the final project. 
 
 Text here!
