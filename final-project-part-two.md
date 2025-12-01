@@ -2,7 +2,7 @@
 
 # Final Project: Part 2
 
-## Project Pivots & The New Proposal
+## Project Pivots & New Proposal
 
 Before we dive deeper into developing the narrative of the project for Part II, including the wireframe and user research, I would like to share the major updates I've made in my project scope based on my initial data exploration and feedback from Part I. 
 
