@@ -13,7 +13,7 @@ As a rough outline, I planned to analyze over 13,000 data points in this set and
 
 For my initial visualization sketch, shown below, I used a stacked area chart to represent the shifts in music revenue. The visualization highlighted the magnitude of physical sales until its collapse, followed by a brief boom in piracy/downloads and the emergence of digital streaming platforms.
 
-<img width="1843" height="1970" alt="image" src="https://github.com/user-attachments/assets/011950b4-a3f4-4dc2-9735-7049664e7b17" />
+<img width="668" height="712" alt="Screenshot 2025-11-30 at 6 30 46 PM" src="https://github.com/user-attachments/assets/dcc8ea33-1006-46e9-8651-c3a6abe32774" />
 
 ### Why am I Pivoting Project Proposal?
 
@@ -74,57 +74,50 @@ The primary target audience for this project is the general music consumer, spec
 
 While some might argue that the key target should be those in the industry, I disagree because most, if not all, are involved in the music market and are well-aware of the key contexts of this project, as it is the core foundation of monetization. For instance, industry professionals or executives may not be the right fit, as they often design and work for the system. Most pro-musicians (or even semi-pro level) already know this as well, since they are living it. The consumer is the one who is unaware of this story. They might think music is changing naturally, not realizing they are being influenced by their consumption behavior and manipulated by an algorithm.
 
-### Identifying Individuals to Interview
+### Identifying Interviewees
 
 Finding my target audience (general music consumer) wasn't very difficult. However, I wanted to conduct interviews with three individuals who have varying levels of interest in and involvement with music and still fit the demographic profile. I thought this would provide unbiased and comprehensive feedback compared to selecting interviewees who share the same level of musical engagement. Below are the general descriptions of three interviewees.
 
 1. Interview A (Power User): CMU Master of Entertainment Industry Management student. Heavily interested in the music/entertainment industry. Listens to 4+ hours of music daily and curates playlists.
 2. Interview B (Passive Listener): UCLA master's student studying data analytics. Listens to music while working/commuting, relies on algorithmic playlists. Considered the least involved in music consumption out of all interviewees.
-3. Interview C (Casual Listeners): CMU master student pursuing a project management career path. Listens to music occasionally and has a moderate amount of interest in the market. Attends concerts sometimes with friends. 
+3. Interview C (Casual Listener): CMU master student pursuing a project management career path. Listens to music occasionally and has a moderate amount of interest in the market. Attends concerts sometimes with friends. 
 
-### Interview script
+### Interview Script
 
 While not strictly limited to these, below are the questions I planned to ask three interviewees, along with the goal behind each question.
 
 | Goal | Questions to Ask |
 |------|------------------|
-| To validate the consumer behavior, I want to confirm if listeners actually skip songs either consciously or unconsciously. | "Try to think of the recent time you listened to a random playlist. How quickly do you skip a song if you aren't feeling it? How often do you skip songs? What are the reasons you chose to skip a certain song?" |
-| I need to check whether the 30-second rule is common knowledge to my target audience. If most people already know this, my narrative will likely have little impact and will not offer insights. | "Did you know that streaming platforms like Spotify pay an artist only if you listen to the song for at least 30 seconds?" |
+| Validate the consumer behavior. I want to confirm if listeners actually skip songs either consciously or unconsciously. | "Try to think of the recent time you listened to a random playlist. How quickly do you skip a song if you aren't feeling it? How often do you skip songs? What are the reasons you chose to skip a certain song?" |
+| Check whether the 30-second rule is common knowledge to my target audience. If most people already know this, my narrative will likely have little impact and will not offer insights. | "Did you know that streaming platforms like Spotify pay an artist only if you listen to the song for at least 30 seconds?" |
 | Ask about the visualizations and their formats to check that they communicate the trend clearly without additional explanation. |  "Take a look at the charts/sketches. What is the first thing you notice? Can you understand the context it's trying to convey without any other explanations?" |
 | Check the overall storyline/narrative arc of the project | "Do you find the overall project proposal to be understandable and interesting to you? What would be your takeaways?" |
 
-### Interview findings
+### Interview Findings
 
-| Questions               | Interview 1 (briefly describe) | Interview 2 | Interview 3 |
+| Questions               | Interview A (Power User) | Interview B (Passive Listener) | Interview C (Casual Listener) |
 |-------------------------|--------------------------------|-------------|-------------|
-| Consumption behavior:  | "If I'm checking out new releases, I have zero patience. If the beat doesn't hit in the first 10 seconds, I skip. I'd say I skip 4 out of 5 songs on a generic playlist." | "I usually listen while coding, so I honestly rarely skip unless a song is super annoying or distracting. I just treat playlists as background noise." | "It depends on my mood, but if a song has a really long, slow intro, I usually skip it immediately. I don't have time to wait for the chorus." |
-|                         |                                |             |             |
-|                         |                                |             |             |
+| "Try to think of the recent time you listened to a random playlist. How quickly do you skip a song if you aren't feeling it? How often do you skip songs? What are the reasons you chose to skip a certain song?" | "If I'm checking out new releases, I have zero patience. If the beat doesn't hit in the first 7-8 seconds of the intro, I usually skip. Every song is different, but I think I skip 3 or 4 songs out of 5 when listening to a playlist that isn't mine." | Usually listens to music when doing work, driving, or cleaning the house, etc., rather than investing time in music listening. Therefore, she rarely skips songs unless a song is really bad or distracting. "I often use playlists as a background soundtrack." | It depends on the mood, but if a song has a really lengthy intro with a slow start, he skips more often. |
+| "Did you know that streaming platforms like Spotify pay an artist only if you listen to the song for at least 30 seconds?" | She is more invested in the entertainment industry, so she is not well-aware of the system. However, she knows that streaming doesn't support much for many artists financially, other than the superstars. She knew that the song needed to be heard for a certain time for credit from watching some YouTubers, but didn't know about the 30-second rule. | She assumed they got paid just by listening to the music, regardless of playtime, like YouTube views. That rule seems really harsh. | He also had no clue. When the question was asked, he assumed that it was calculated based on how much you listened. However, he was surprised that listening to a song for 25 seconds wouldn't incentivize the artist. |
+| "Take a look at the charts/sketches. What is the first thing you notice? Can you understand the context it's trying to convey without any other explanations?" | She thinks the line chart of song duration trend is clear and dramatic. The single line helps to emphasize the drop around 2015. Moreover, she found the waveform comparison to be the best part because it is creative and instantly matches the trend of selling songs for social media. Overall, she likes the charts and thinks they explain that songs are focusing more on catchy hooks now.| From a data perspective, the line chart trend is clear, but the sketch needs to include more details and visual improvements. For example, the line chart of song duration should specify years on the X-axis. Maybe add some annotations so I know exactly when the 'drop' happens. Adding colors would definitely help to emphasize key points on the charts. Lastly, she thinks that the table of the top song's duration in each period is direct but not very visually appealing, so it can use a different format. It can be a vertical bar chart, but instead of a bar, write the song title that has the same length as the bar to reflect the duration | Overall, the sketches are clear and easy to understand. He thought the waveform one is cool because I can literally see how drastically different it is in the intro part. |
+| "Do you find the overall project proposal to be understandable and interesting to you? What would be your takeaways?" | The story holds up. It explains well why the songs are getting shorter. However, she thinks that additional context explaining the 30-second rule and pro-rata might be helpful for my target audience. | Overall, she sees the project to be understandable. The table can be illustrated more effectively, and additional data visualization might be helpful if I can find more information. The biggest confusion is what the final message is if she is the audience for this presentation. | He likes the visualizations I created. However, he sees that the conclusion needs to be developed because he wasn't quite sure what general consumers, like himself, should take as a call-to-action. "It delivers solid in-depth information, but what is the next step you want to tell?" |
 
 
-## Identified changes for Part III
-> Document the changes you plan on implementing next week to address any issues identified.  
+## Identified Changes for Part III
 
-Text here!
+Based on the feedback from my interviews, I have identified three key areas that need refinement in the final presentation. While each synthesis discusses different elements of my project, they ultimately suggest that I need to improve the narrative/story so that it resonates with my target audience, the general music consumer.
 
 | Research synthesis                       | Anticipated changes for Part III                                                |
 |------------------------------------------|---------------------------------------------------------------------------------|
-| Findings or observations from interviews | Describe what, if any changes you anticipate making to address the observation. |
-| Still lacks in Call-to-action.... |                                                                                 |
-| Few more graphs                                         |                                                                                 |
-|                                          |                                                                                 |
-| ...add more rows as necessary            |                                                                                 |
-
-> ...include any final thoughts you have here. 
-
-Text here!
-
+| Find the best way to link IDEA A & B, and how the streaming platforms incentivize the artists. | Until I verbally explained, interviewees struggled to see the connection between the stacked bar chart for IDEA A and the other charts for IDEA B. Although my final presentation will provide more details for the audience to understand why those two topics connect, the writings on Shorthand should be self-explanatory for readers to fully grasp the project. Moreover, it took me the most time to explain how the 30-second rule and pro-rata work. Therefore, finding a more effective way to help the audience understand the system is necessary. It may be helpful to find a simple and intuitive image that explains the monetization system. |
+| Improving the visual elements of the charts. | While most of the feedback said the visualizations are clear and self-explanatory, they also suggested adding more visual elements to highlight the key context I want to deliver from each chart.  I will refine the charts using Tableau (or Datawrapper/RawGraphs) by adding specific design elements. Many recommended using text annotations directly on the canvas. For instance, I can add a note on the line chart that directly shows "Streaming Emerges" at the point where the line declines drastically. I will also use color to highlight the drop or increase since my two main charts (music sales and music duration) are reflecting a trend that I want to emphasize. Lastly, I will need to explore alternative format options for the table sketch, as I was able to relate to the feedback that the table is too general and not very intuitive at first sight. |
+| Clarifying the conclusion (call to action, takeaway, insights) | The revised project adds more depth to the story and has a better narrative that I want to deliver compared to the initial IDEA A. However, interviewees critiqued that it still lacks a conclusion, making it unclear what the final message I want to tell the audience is. Instead of just summarizing the findings, I will add a direct "Call to Action/Takeaway" section that provides some final messages that the audience can reflect on. |
 
 ### References
 Ay, Y. E. (2020). Spotify Dataset 1921-2020, 160k+ Tracks. Kaggle. https://www.kaggle.com/datasets/yamaerenay/spotify-dataset-1921-2020-160k-tracks
-McIver, A. (2020). Music Industry Sales (1973 - 2019). Kaggle. https://www.kaggle.com/datasets/andrewmvd/music-sales
-Recording Industry Association of America. (2023). Music Industry Facts. RIAA. https://www.riaa.com/facts/
-Spotify. (2025). Loud & Clear: Annual Music Economics Report. https://loudandclear.byspotify.com/#takeaway-2
+McIver, A. (2020). Music Industry Sales (1973 - 2019). Kaggle. https://www.kaggle.com/datasets/andrewmvd/music-sales<br/>
+Recording Industry Association of America. (2023). Music Industry Facts. RIAA. https://www.riaa.com/facts/<br/>
+Spotify. (2025). Loud & Clear: Annual Music Economics Report. https://loudandclear.byspotify.com/#takeaway-2<br/>
 Trolley. (2024, May 2). So, how exactly do streaming services calculate royalties? Trolley Learning Center. https://trolley.com/learning-center/so-how-exactly-do-streaming-services-calculate-royalties/
 
 ### AI acknowledgements
