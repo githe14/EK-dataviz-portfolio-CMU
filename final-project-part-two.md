@@ -17,7 +17,7 @@ For my initial visualization sketch, shown below, I used a stacked area chart to
 
 ### Why am I Pivoting Project Proposal?
 
-After reflecting on my initial proposal and doing further research, I decided to pivot from Idea A to a new topic. While the RIAA's music sales data effectively illustrates the macro-level history of the music consumption and sales trends, it struggles to have the the thoughtful analysis and doesn't provide much insights/story that the readers can take away from the project. The story of format wars can be discussed to provide necessary historical background on the music industry, but I felt my initial approach was too broad to offer a unique interpretation beyond surface-level information that most already know. It works more like a history lesson than a compelling data story with a clear takeaway.
+After reflecting on my initial proposal and doing further research, I decided to pivot from Idea A to a new topic. While the RIAA's music sales data effectively illustrates the macro-level history of music consumption and sales trends, it struggles to have thoughtful analysis and doesn't provide much insights/story that the readers can take away from the project. The story of format wars can be discussed to provide necessary historical background on the music industry, but I felt my initial approach was too broad to offer a unique interpretation beyond surface-level information that most already know. It works more like a history lesson than a compelling data story with a clear takeaway.
 
 Furthermore, heavily relying on the single RIAA dataset limited the depth of my project. I realized that a project focused solely on industry revenue lacks a meaningful "call to action" or "next steps" for the target audience. To create a more impactful narrative, I want to look beyond sales figures and explore any chain reactions (cause-and-effect analysis) that drive those numbers or are affected by the format wars. As a result, I will be able to contextualize my story with more layered stories, rather than an obvious trend, by leveraging additional resources and a more specific dataset.
 
@@ -64,7 +64,7 @@ To support my narrative arc, I will be using a new dataset, "Spotify Dataset 192
 
 This part further develops the newly revised story outline and any relevant components visually by using wireframes or storyboards. I built this directly in Shorthand and will continue to modify it to use as a final presentation. The final presentation will be pitched in class.
 
-Shorthand: [link](https://preview.shorthand.com/fK2rfgIjuiaeQc)
+**Shorthand: [Click here to access](https://preview.shorthand.com/fK2rfgIjuiaeQc)**
 
 ## User Research 
 
