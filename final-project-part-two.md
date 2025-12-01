@@ -64,7 +64,7 @@ To support my narrative arc, I will be using a new dataset, "Spotify Dataset 192
 
 This part further develops the newly revised story outline and any relevant components visually by using wireframes or storyboards. I built this directly in Shorthand and will continue to modify it to use as a final presentation. The final presentation will be pitched in class.
 
-**Shorthand: [Click here to access]([https://preview.shorthand.com/fK2rfgIjuiaeQc](https://app.shorthand.com/organisations/JSrgFWI7zn/stories/FZxj05FasS))**
+**Shorthand: [click here to access](https://preview.shorthand.com/fK2rfgIjuiaeQcG6)**
 
 ## User Research 
 
