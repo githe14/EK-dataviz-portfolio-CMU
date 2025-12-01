@@ -54,8 +54,9 @@ The source is found via Kaggle, called "Music Industry Sales (1973 - 2019)".
 For the initial brainstorming stage, including Part One, we will primarily use rough sketches on paper, and the final will be applied to Shorthand. As I finalize the main context/story and clean the dataset to my key message, I will explore different visualization options using a few online tools that are interactive and easy to use, such as Datawrapper (https://datawraper.de/) or Flourish (https://flourish.studio/). For the final visualization, I plan to use Tableau as my main tool. I chose Tableau for its features to effectively handle time-series data on music sales, and its interactive features (tooltips, filtering, etc.) will allow the audience to explore specific formats without cluttering the main narrative. However, other online tools might be used in conjunction with or as an alternative to Tableau. 
 
 ### References
-Berinato, S. (2016). Good Charts: The HBR Guide to Making Smarter, More Persuasive Data Visualizations. Harvard Business Review Press.
+Berinato, S. (2016). Good Charts: The HBR Guide to Making Smarter, More Persuasive Data Visualizations. Harvard Business Review Press.<br/>
+
 McIver, A. (2020). Music Industry Sales (1973 - 2019). Kaggle. https://www.kaggle.com/datasets/andrewmvd/music-sales
 
 ### AI acknowledgements
-There is no AI use for this assignment, Final Project: Part One.
+No AI use for Final Project: Part One.
