@@ -115,11 +115,14 @@ Based on the feedback from my interviews, I have identified three key areas that
 
 ### References
 Ay, Y. E. (2020). Spotify Dataset 1921-2020, 160k+ Tracks. Kaggle. https://www.kaggle.com/datasets/yamaerenay/spotify-dataset-1921-2020-160k-tracks<br/>
+
 McIver, A. (2020). Music Industry Sales (1973 - 2019). Kaggle. https://www.kaggle.com/datasets/andrewmvd/music-sales<br/>
+
 Recording Industry Association of America. (2023). Music Industry Facts. RIAA. https://www.riaa.com/facts/<br/>
+
 Spotify. (2025). Loud & Clear: Annual Music Economics Report. https://loudandclear.byspotify.com/#takeaway-2<br/>
+
 Trolley. (2024, May 2). So, how exactly do streaming services calculate royalties? Trolley Learning Center. https://trolley.com/learning-center/so-how-exactly-do-streaming-services-calculate-royalties/
 
 ### AI acknowledgements
-_If you used AI to help you complete this assignment (within the parameters of the instruction and course guidelines), detail your use of AI for this assignment here._
-
+No AI use for Final Project: Part Two.
