@@ -8,10 +8,19 @@ Text here!
 # Changes made since Part II
 > Include few paragraphs that reflects on changes you made since the completion of Part II. 
 
+Copy and past my outline.
+
+First, reflected the outien
+
+Then, I decided to use Google Colab, and write Python to create the visualizations on final presentation. There are two reasons behind this. First, the theme of my shorthand is . I actively use. The downside of this is that there is more limitations for the readers to play with the visualizations, since my data visualizations will be images I generate with Python codes, rather than offering interative tools that Tableau has. Yet, I beleive this worked better for my Shorthand final presentation.
+
+
 Text here!
 
 ## The audience
 > Talk about who you identified as the audience for your final data story.  Include any other information you've used that helped you narrow the focus (e.g. insights from your interviews, personas, etc.).  Note any specific adjustments you made to your final project to make it work for your audience.
+
+Call to action. Also, I found my context was much focused on just being descriptive. So when I put contexts, or prepare the speech I treid to narrate in general consumers perspective.
 
 Text here!
 
