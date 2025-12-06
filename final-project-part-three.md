@@ -23,19 +23,17 @@ My user research in Part 2 highlighted two areas for improvement: the visual con
 
 I learned that for the story to feel native to the subject matter, the visualizations needed to mimic the interface of a streaming platform (specifically Spotify). While I initially experimented with Tableau, I found it difficult to create the specific high-contrast dark theme I wanted. My overall presentation had to be in a dark background to highlight the visualizations, which I aimed to focus on the trend lines of data on a stacked area chart and a line chart. I moved my visualization workflow to Google Colab and utilized Python (Pandas/Matplotlib). To create the visualization on Google Colab, I utilized the AI (Gemini) to help write the Python syntax required to customize the background and accent colors to match the Shorthand theme.
 
-**Detailed AI Acknowledgement is explained in the later section.**
-
-Once I created the Python syntax with Gemini, I used Google Colab to generate images.
+** **Detailed AI Acknowledgement is explained on my [Final Shorthand Story](https://carnegiemellon.shorthandstories.com/the-attention-economy-of-the-music-industry/index.html).**
 
 <img width="1453" height="702" alt="image" src="https://github.com/user-attachments/assets/b7ac1f5a-c1f3-4e0e-8834-0edc93ccb4af" />
 
-**The Stacked Area Chart (Context):** A visualization of RIAA data showing the transition from Physical to Streaming dominance. Each chart highlights each era using the scrolling feature on Shorthand.
+Once I created the Python syntax with Gemini, I used Google Colab to generate images.
 
 <img width="1541" height="988" alt="Code_Generated_Image (3)" src="https://github.com/user-attachments/assets/62725aaa-5aad-4f9b-8ef8-db77faee6157" />
 <img width="1541" height="988" alt="Code_Generated_Image (2)" src="https://github.com/user-attachments/assets/5946ee90-51e9-48ab-a30f-a0513dac06b5" />
 <img width="1584" height="988" alt="Code_Generated_Image (1)" src="https://github.com/user-attachments/assets/bbff56bc-2ffc-45db-a1fc-934f88461533" />
 
-**The "Progressive" Line Chart (The Trend):** Rather than showing the Spotify duration drop as a static image, I generated six progressive versions of the chart (1995, 2000, 2005, etc.) and linked them to the scroll in Shorthand. The intention was to allow the reader to experience the timeline of the data. Following the trend line for 15 years (the CD era) makes the sudden drop in 2015 feel much more dramatic and consequential.
+**The Stacked Area Chart (Context):** A visualization of RIAA data showing the transition from Physical to Streaming dominance. Each chart highlights each era using the scrolling feature on Shorthand.
 
 <img width="1600" height="976" alt="Code_Generated_Image (9)" src="https://github.com/user-attachments/assets/fe71ba83-66db-4e32-9bfd-bac824263dec" />
 <img width="1600" height="976" alt="Code_Generated_Image (8)" src="https://github.com/user-attachments/assets/81b91cd4-623a-496f-98a7-e733d30fe72f" />
@@ -44,7 +42,14 @@ Once I created the Python syntax with Gemini, I used Google Colab to generate im
 <img width="1547" height="988" alt="Code_Generated_Image (5)" src="https://github.com/user-attachments/assets/56885232-2f7d-4bdb-9cc6-5f816ecf074d" />
 <img width="1547" height="988" alt="Code_Generated_Image (4)" src="https://github.com/user-attachments/assets/726fe00c-5863-4dc7-b032-efd68a17d8d9" />
 
-**The Waveform Comparison (Song Structure):** For creating waveform section, I chose to use a stark, black-and-white contrast for the waveform comparison. While the rest of the project uses green accents, I kept the waveforms monochromatic to emphasize the structural density of modern songs (the "Brick Wall" effect). This visual metaphor was crucial for showing the artistic consequence of the data trend.
+**The "Progressive" Line Chart (The Trend):** Rather than showing the Spotify duration drop as a static image, I generated six progressive versions of the chart (1995, 2000, 2005, etc.) and linked them to the scroll in Shorthand. The intention was to allow the reader to experience the timeline of the data. Following the trend line for 15 years (the CD era) makes the sudden drop in 2015 feel much more dramatic and consequential.
+
+![3](https://github.com/user-attachments/assets/ef47dfe5-dd37-4a4c-a59a-cfa38a8d537a)
+![2](https://github.com/user-attachments/assets/b38864ad-3971-46a0-8aba-ede961018f3e)
+![1](https://github.com/user-attachments/assets/edba974f-6683-429f-8f82-b3da8128a28d)
+
+**The Waveform Comparison (Song Structure):**
+To visualize the structural shift in songwriting, I used **WaveVisual** to generate real waveforms directly from Spotify track data. I selected two iconic songs representing distinct eras—one from the Physical era (featuring a dynamic, traditional song structure with an intro) and one from the Streaming era (featuring an immediate hook and loudness). Comparing these visual forms as examples can provide a clearer understanding to the audience and demonstrate how the incentive system of streaming has physically influenced the shape of modern music.
 
 **2. Defining the Call to Action:**
 
@@ -84,19 +89,23 @@ The final step involved integrating all these finalized visualizations and refin
 * **Call to Action:** Support artists by listening past 30 seconds, buying merch, and collecting physical media.
 
 ## The Audience
-> Talk about who you identified as the audience for your final data story.  Include any other information you've used that helped you narrow the focus (e.g. insights from your interviews, personas, etc.).  Note any specific adjustments you made to your final project to make it work for your audience.
 
-## References
-> **You should have already included detailed references on your Shorthand story** - if so, you do not need to list them twice, unless you used additional references for specific to your writeup. Use this section to capture any additional special notes or information necessary. If there is additional information for your shorthand readers that you've placed on this page, link from Shorthand to this page. Make sure to double-check that you aren't using copyright material and that you have added / updated any citations or other content that you used to create your data story.  Make sure you have cited external sources correctly.
+My primary audience for this story is the General Music Consumer, specifically Gen Z and Millennials, who use streaming platforms daily but are unaware of the backend economics. While this group is actively using streaming services, they are mostly unaware of the financial mechanisms, such as the 30-Second Rule, that influence the content they consume. Therefore, I found that general music consumers have more insights to take away from this informative project compared to industry professionals or artists who live within this system.
+
+Insights from my user research helped develop the final story, particularly regarding the project's conclusion. My interviewees commonly expressed a feeling of loss after seeing the data. Fortunately, they understood the problem and the main context, but didn't know what to do with the information. Therefore, I shifted the conclusion from a summary of plain information to creating broader suggestions for different areas where consumers can take actual, immediate next steps. First, I provided actionable suggestions for using Streaming, explaining how listening past the 30-second mark supports artist payment. Second, I emphasized support for outside of streaming, encouraging the power of merchandise and physical media that aren't impacted by the pro-rata system. Finally, I included some exploratory reflections, asking the audience some questions to consider after the presentation regarding the system, trend, and industry. This would make the presentation end with meaningful reflections rather than just data points.
+
+## Final thoughts
+
+Reflecting on the entire process, the biggest takeaway was learning that effective data storytelling often requires skills in narrowing the scope rather than broadening it. My initial concept (Idea A) was a broad history lesson on music sales, which provided context but lacked impact. By focusing on the specific effects of consumption behavior, I learned that stories that provides layer of are often more compelling than narrating  ones. Zooming in on a single, granular metric—Song Duration—allowed me to unravel a much larger, complex narrative about how financial incentives invisibly shape our culture and art. This project confirmed that the strongest data stories answer "Why?" rather than just showing "What."
+
+Technically, stepping outside of standard visualization tools to generate custom charts in Python was a rewarding challenge. While it required a steeper learning curve than using Tableau templates, it allowed me to achieve the specific "Dark Mode" aesthetic that was crucial for my storytelling. If I had more time or resources, I would have loved to incorporate an interactive audio element into the Shorthand story, allowing users to hear the structural difference between a 1980s intro and a 2024 hook while looking at the waveforms. However, I am proud that the visual data alone is strong enough to make the point, effectively transforming abstract economic concepts into a tangible reality for the general music consumer.
+
+### References
+Ay, Y. E. (2020). Spotify Dataset 1921-2020, 160k+ Tracks. Kaggle. https://www.kaggle.com/datasets/yamaerenay/spotify-dataset-1921-2020-160k-tracks<br/>
+
+McIver, A. (2020). Music Industry Sales (1973 - 2019). Kaggle. https://www.kaggle.com/datasets/andrewmvd/music-sales<br/>
+
+** Above are the references for Part 3. Please check the detailed references of the entire project in my Shorthand story.
 
 ## AI acknowledgements
-> If you used AI to help you complete this assignment (within the parameters of the instruction and course guidelines), detail your use of AI for this assignment here.
-
-Text here!
-
-# Final thoughts
-> You can summarize any final thoughts / reflections that don't fit well in the previous sections here.  How did it go?  What did you run out of time for, or wish you had a chance to revisit?  What were you most excited about?  Include any final reflections as you think they might help us understand your process.  If you already included such reflections elsewhere, you can delete this section. 
-
-Text here!
-
-
+No AI use for Final Project: Part 3.
