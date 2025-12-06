@@ -1,12 +1,12 @@
 | [home page](https://cmustudent.github.io/tswd-portfolio-templates/) | [data viz examples](dataviz-examples) | [critique by design](critique-by-design) | [final project I](final-project-part-one) | [final project II](final-project-part-two) | [final project III](final-project-part-three) |
 
-# The final data story
+# Final Project: Part 3
 
-Please click [here](https://carnegiemellon.shorthandstories.com/the-attention-economy-of-the-music-industry/index.html) or the link below to see my presentation of final project!
+## The Final Data Story
 
-Link: (https://carnegiemellon.shorthandstories.com/the-attention-economy-of-the-music-industry/index.html)
+Please click **[The Attention Economy: How Streaming Changed the Pop Song](https://carnegiemellon.shorthandstories.com/the-attention-economy-of-the-music-industry/index.html)** or the link below to see my presentation of the final project!
 
-Text here!
+**Link:** https://carnegiemellon.shorthandstories.com/the-attention-economy-of-the-music-industry/index.html
 
 # Changes made since Part II
 > Include few paragraphs that reflects on changes you made since the completion of Part II. 
@@ -16,6 +16,13 @@ Copy and past my outline.
 First, reflected the outien
 
 Then, I decided to use Google Colab, and write Python to create the visualizations on final presentation. There are two reasons behind this. First, the theme of my shorthand is . I actively use. The downside of this is that there is more limitations for the readers to play with the visualizations, since my data visualizations will be images I generate with Python codes, rather than offering interative tools that Tableau has. Yet, I beleive this worked better for my Shorthand final presentation.
+
+
+Since completing the wireframes and user research in Part II, my primary focus shifted from **structuring** the narrative to **refining the visual execution**.
+
+In Part II, I established the narrative arc (The Hook $\rightarrow$ The Context $\rightarrow$ The Data). However, my initial sketches were static and visually disconnected. For the final deliverables, I completely overhauled the visual identity of the project. I moved away from the generic white-background charts and utilized Python to generate custom visualizations that adhere to a strict "Dark Mode" aesthetic (Background: `#121212`, Accent: `#1DB954`). This was done to mimic the user interface of Spotify, creating an immersive experience where the data feels native to the platform being discussed.
+
+Additionally, I refined the **financial explanation** based on feedback. In Part II, I planned to explain complex "Pro-Rata" mathematical models. However, realizing this might bore the general reader, I simplified the text to focus strictly on the **"30-Second Rule."** I realized that the specific mechanics of the pool were less important than the *consequence* of the rule: the financial penalty for a "skip."
 
 
 Text here!
