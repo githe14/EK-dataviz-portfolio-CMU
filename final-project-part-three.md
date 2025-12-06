@@ -1,7 +1,10 @@
 | [home page](https://cmustudent.github.io/tswd-portfolio-templates/) | [data viz examples](dataviz-examples) | [critique by design](critique-by-design) | [final project I](final-project-part-one) | [final project II](final-project-part-two) | [final project III](final-project-part-three) |
 
 # The final data story
-> <script src="https://carnegiemellon.shorthandstories.com/the-attention-economy-of-the-music-industry/embed.js"></script>
+
+Please click [here](https://carnegiemellon.shorthandstories.com/the-attention-economy-of-the-music-industry/index.html) or the link below to see my presentation of final project!
+
+Link: (https://carnegiemellon.shorthandstories.com/the-attention-economy-of-the-music-industry/index.html)
 
 Text here!
 
